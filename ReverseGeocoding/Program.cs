@@ -1,4 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
 
 namespace ReverseGeocoding
 {
@@ -8,8 +11,16 @@ namespace ReverseGeocoding
     {
       IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("jsconfig.json", true, true).Build();
       string googleApiKey = configuration["gapikey"];
-      string url = UrlBuilder("45.140400", "19.911776", googleApiKey);
+
+      string lat = "45.140400";
+      string lng = "19.911776";
+
+      string url = UrlBuilder(lat, lng, googleApiKey);
       string reverseGeocodingJson = GetJson(url);
+
+      List<Country> countries = new List<Country>();
+      List<City> cities = new List<City>();
+      ParseJsonAndWriteToList(lat, lng, countries, cities, reverseGeocodingJson);
     }
 
     private static string UrlBuilder(string lat, string lng, string googleApiKey)
@@ -27,5 +38,41 @@ namespace ReverseGeocoding
 
       return doc;
     }
+
+    private static void ParseJsonAndWriteToList(string lat, string lng, List<Country> countries, List<City> cities, string reverseGeocodingJson)
+    {
+      JObject reverseGeocodingJObject = JObject.Parse(reverseGeocodingJson);
+      IEnumerable<JToken> addressComponentsList = reverseGeocodingJObject.SelectTokens("$..address_components");
+
+      foreach (JToken addressComponents in addressComponentsList)
+      {
+        foreach (JToken addressComponent in addressComponents)
+        {
+          List<string> types = addressComponent["types"].ToObject<List<string>>();
+
+          if (types.Contains("locality") && types.Contains("political"))
+          {
+            City city = new City(lat, lng, addressComponent["long_name"].ToString());
+
+            if (!cities.Contains(city))
+            {
+              cities.Add(city);
+            }
+          }
+          else if (types.Contains("country") && types.Contains("political"))
+          {
+            Country country = new Country(lat, lng, addressComponent["long_name"].ToString());
+
+            if (!countries.Contains(country))
+            {
+              countries.Add(country);
+            }
+          }
+        }
+
+      }
+
+    }
+
   }
 }
