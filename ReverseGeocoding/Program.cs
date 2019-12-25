@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
 
 namespace ReverseGeocoding
 {
@@ -6,7 +6,8 @@ namespace ReverseGeocoding
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+      IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("jsconfig.json", true, true).Build();
+      string googleApiKey = configuration["gapikey"];
     }
   }
 }
