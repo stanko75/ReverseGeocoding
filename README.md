@@ -1,1 +1,2 @@
 # ReverseGeocoding
+Idea behind this project is to have all cities and countries where pictures were made in a database. In order to display them later on a map, since there are too much of pictures and loading JSON with saved locations takes too much time, like this number of locations will be filtered per country, then per city, and pernumber of locations depending on zoom and user decision.

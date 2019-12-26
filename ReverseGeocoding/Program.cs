@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json.Linq;
-using System;
 using System.Collections.Generic;
 
 namespace ReverseGeocoding
