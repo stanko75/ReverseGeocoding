@@ -1,6 +1,8 @@
 ﻿using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
+using System.IO;
 
 namespace ReverseGeocoding
 {
@@ -10,16 +12,39 @@ namespace ReverseGeocoding
     {
       IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("jsconfig.json", true, true).Build();
       string googleApiKey = configuration["gapikey"];
+      string jsonsConf = configuration["jsons"];
+      string[] jsons = jsonsConf.Split(';');
 
-      string lat = "45.140400";
-      string lng = "19.911776";
-
-      string url = UrlBuilder(lat, lng, googleApiKey);
-      string reverseGeocodingJson = GetJson(url);
+      JsonSerializer serializer = new JsonSerializer();
+      LatLngFileName latLngFileName;
 
       List<Country> countries = new List<Country>();
       List<City> cities = new List<City>();
-      ParseJsonAndWriteToList(lat, lng, countries, cities, reverseGeocodingJson);
+
+      foreach (string json in jsons)
+      {
+        using (FileStream s = File.Open(json, FileMode.Open))
+        using (StreamReader sr = new StreamReader(s))
+        using (JsonReader reader = new JsonTextReader(sr))
+        {
+          while (reader.Read())
+          {
+            //Console.WriteLine(reader.QuoteChar());
+
+            if (reader.TokenType == JsonToken.StartObject)
+            {
+              latLngFileName = serializer.Deserialize<LatLngFileName>(reader);
+
+              string url = UrlBuilder(latLngFileName.Latitude, latLngFileName.Longitude, googleApiKey);
+              string reverseGeocodingJson = GetJson(url);
+
+              ParseJsonAndWriteToList(latLngFileName.Latitude, latLngFileName.Longitude, countries, cities, reverseGeocodingJson);
+
+            }
+          }
+        }
+      }
+
     }
 
     private static string UrlBuilder(string lat, string lng, string googleApiKey)
