@@ -3,10 +3,12 @@ Idea behind this project is to have all cities and countries where pictures were
 
 Example of JSON configuration file:
 
+```json
 {
   "gapikey": "googleAPIkey",
   "jsons": "C:\\projects\\gallery\\folderE\\folderE.json;C:\\projects\\gallery\\folderF\\folderF.json;C:\\projects\\gallery\\folderG\\folderG.json",
   "connectionString": "Server=myServer;Database=ReverseGeocoding;Uid=myUserID;Pwd=myPassword;"
 }
+```
 
 Where JSON files (jsons) are generated with Pics2gMaps project, using "mergedGalleries" configuration settings.
