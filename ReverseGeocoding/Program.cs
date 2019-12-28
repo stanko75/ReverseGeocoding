@@ -1,6 +1,8 @@
 ﻿using Microsoft.Extensions.Configuration;
+using MySql.Data.MySqlClient;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -12,14 +14,15 @@ namespace ReverseGeocoding
     {
       IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("jsconfig.json", true, true).Build();
       string googleApiKey = configuration["gapikey"];
+      string connectionString = configuration["connectionString"];
       string jsonsConf = configuration["jsons"];
       string[] jsons = jsonsConf.Split(';');
 
       JsonSerializer serializer = new JsonSerializer();
       LatLngFileName latLngFileName;
 
-      List<Country> countries = new List<Country>();
-      List<City> cities = new List<City>();
+      MySqlConnection mySqlConnection = new MySqlConnection();
+      mySqlConnection.ConnectionString = connectionString;
 
       foreach (string json in jsons)
       {
@@ -29,16 +32,16 @@ namespace ReverseGeocoding
         {
           while (reader.Read())
           {
-            //Console.WriteLine(reader.QuoteChar());
-
             if (reader.TokenType == JsonToken.StartObject)
             {
               latLngFileName = serializer.Deserialize<LatLngFileName>(reader);
 
+              Console.WriteLine($"Geocoding: {latLngFileName.Latitude} ,{latLngFileName.Longitude}, FileName: {latLngFileName.FileName}");
+
               string url = UrlBuilder(latLngFileName.Latitude, latLngFileName.Longitude, googleApiKey);
               string reverseGeocodingJson = GetJson(url);
 
-              ParseJsonAndWriteToList(latLngFileName.Latitude, latLngFileName.Longitude, countries, cities, reverseGeocodingJson);
+              ParseJsonAndWriteToDB(latLngFileName.Latitude, latLngFileName.Longitude, latLngFileName.FileName, reverseGeocodingJson, mySqlConnection);
 
             }
           }
@@ -63,10 +66,14 @@ namespace ReverseGeocoding
       return doc;
     }
 
-    private static void ParseJsonAndWriteToList(string lat, string lng, List<Country> countries, List<City> cities, string reverseGeocodingJson)
+    private static void ParseJsonAndWriteToDB(string lat, string lng, string fileName, string reverseGeocodingJson, MySqlConnection mySqlConnection)
     {
       JObject reverseGeocodingJObject = JObject.Parse(reverseGeocodingJson);
       IEnumerable<JToken> addressComponentsList = reverseGeocodingJObject.SelectTokens("$..address_components");
+
+      string city = string.Empty;
+      string country = string.Empty;
+      fileName = fileName.Replace(@"\", @"\\");
 
       foreach (JToken addressComponents in addressComponentsList)
       {
@@ -74,29 +81,140 @@ namespace ReverseGeocoding
         {
           List<string> types = addressComponent["types"].ToObject<List<string>>();
 
-          if (types.Contains("locality") && types.Contains("political"))
+          if (types.Contains("locality") && types.Contains("political")) //city
           {
-            City city = new City(lat, lng, addressComponent["long_name"].ToString());
-
-            if (!cities.Contains(city))
-            {
-              cities.Add(city);
-            }
+            city = addressComponent["long_name"].ToString();
+            city = city.Replace("'", "''");
+            AddCityToDb(city, mySqlConnection);
           }
-          else if (types.Contains("country") && types.Contains("political"))
+          else if (types.Contains("country") && types.Contains("political")) //country
           {
-            Country country = new Country(lat, lng, addressComponent["long_name"].ToString());
+            country = addressComponent["long_name"].ToString();
+            country = country.Replace("'", "''");
+            AddCountryToDb(country, mySqlConnection);
+          }
+        }
+      }
+      AddGpsLocationToDB(city, country, lat, lng, fileName, mySqlConnection);
 
-            if (!countries.Contains(country))
+    }
+
+    private static void AddGpsLocationToDB(string city, string country, string lat, string lng, string fileName, MySqlConnection mySqlConnection)
+    {
+      using (mySqlConnection)
+      {
+        mySqlConnection.Open();
+
+        MySqlCommand mySqlCommandCountry = new MySqlCommand();
+        mySqlCommandCountry.CommandText = $"select * from countries where Name = '{country}' ";
+        mySqlCommandCountry.Connection = mySqlConnection;
+
+        int countryID = 0;
+        if (!string.IsNullOrWhiteSpace(country))
+        {
+          using (MySqlDataReader mySqlDataReaderCountry = mySqlCommandCountry.ExecuteReader())
+          {
+            if (mySqlDataReaderCountry.HasRows)
             {
-              countries.Add(country);
+              while (mySqlDataReaderCountry.Read())
+              {
+                countryID = (int)mySqlDataReaderCountry["ID"];
+              }
+            }
+            else
+            {
+              throw new Exception($"Couldn't find the country: {country}!");
             }
           }
         }
 
+        MySqlCommand mySqlCommandCity = new MySqlCommand();
+        mySqlCommandCity.CommandText = $"select * from cities where Name = '{city}' ";
+        mySqlCommandCity.Connection = mySqlConnection;
+
+        int cityID = 0;
+        if (!string.IsNullOrWhiteSpace(city))
+        {
+          using (MySqlDataReader mySqlDataReaderCity = mySqlCommandCity.ExecuteReader())
+          {
+            if (mySqlDataReaderCity.HasRows)
+            {
+              while (mySqlDataReaderCity.Read())
+              {
+                cityID = (int)mySqlDataReaderCity["ID"];
+              }
+            }
+            else
+            {
+              throw new Exception($"Couldn't find the city: {city}!");
+            }
+          }
+        }
+
+        MySqlCommand mySqlCommandLatLngChckIfExists = new MySqlCommand();
+        mySqlCommandLatLngChckIfExists.CommandText = $"select * from reversegeocoding.gpslocation where Latitude = '{lat}' and Longitude = '{lng}' ";
+        mySqlCommandLatLngChckIfExists.Connection = mySqlConnection;
+
+        bool latLngNotExists = true;
+        using (MySqlDataReader mySqlDataReaderLatLngChckIfExists = mySqlCommandLatLngChckIfExists.ExecuteReader())
+        {
+          latLngNotExists = !mySqlDataReaderLatLngChckIfExists.HasRows;
+        }
+
+        if (latLngNotExists)
+        {
+          MySqlCommand mySqlCommandLatLng = new MySqlCommand();
+          mySqlCommandLatLng.Connection = mySqlConnection;
+
+          mySqlCommandLatLng.CommandText = $"INSERT INTO reversegeocoding.gpslocation (Latitude, Longitude, FileName, CityID, CountryID) VALUES ('{lat}', '{lng}', '{fileName}', '{cityID}', '{countryID}');";
+          mySqlCommandLatLng.ExecuteNonQuery();
+        }
+      }
+    }
+
+    private static void AddCountryToDb(string country, MySqlConnection mySqlConnection)
+    {
+      using (mySqlConnection)
+      {
+        mySqlConnection.Open();
+
+        MySqlCommand mySqlCommand = new MySqlCommand();
+        mySqlCommand.CommandText = $"select * from countries where Name = '{country}' ";
+        mySqlCommand.Connection = mySqlConnection;
+
+        MySqlDataReader mySqlDataReader = mySqlCommand.ExecuteReader();
+
+        if (!mySqlDataReader.HasRows)
+        {
+          //Add to db
+          mySqlDataReader.Close();
+
+          mySqlCommand.CommandText = $"INSERT INTO reversegeocoding.countries (Name) VALUES ('{country}');";
+          mySqlCommand.ExecuteNonQuery();
+        }
+      }
+    }
+
+    private static void AddCityToDb(string city, MySqlConnection mySqlConnection)
+    {
+      using (mySqlConnection)
+      {
+        mySqlConnection.Open();
+
+        MySqlCommand mySqlCommand = new MySqlCommand();
+        mySqlCommand.CommandText = $"select * from cities where Name = '{city}' ";
+        mySqlCommand.Connection = mySqlConnection;
+
+        MySqlDataReader mySqlDataReader = mySqlCommand.ExecuteReader();
+        if (!mySqlDataReader.HasRows)
+        {
+          mySqlDataReader.Close();
+
+          mySqlCommand.CommandText = $"INSERT INTO reversegeocoding.cities (Name) VALUES ('{city}');";
+          mySqlCommand.ExecuteNonQuery();
+        }
       }
 
     }
-
   }
 }
