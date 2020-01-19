@@ -101,6 +101,11 @@ namespace ReverseGeocoding
 
     private static void AddGpsLocationToDB(string city, string country, string lat, string lng, string fileName, MySqlConnection mySqlConnection)
     {
+      fileName = fileName.Replace("\\\\", "/");
+      fileName = fileName.Replace("\\", "/");
+
+      fileName = "file:///" + fileName.Replace("\\", "/");
+
       using (mySqlConnection)
       {
         mySqlConnection.Open();
@@ -152,7 +157,7 @@ namespace ReverseGeocoding
         }
 
         MySqlCommand mySqlCommandLatLngChckIfExists = new MySqlCommand();
-        mySqlCommandLatLngChckIfExists.CommandText = $"select * from reversegeocoding.gpslocation where Latitude = '{lat}' and Longitude = '{lng}' ";
+        mySqlCommandLatLngChckIfExists.CommandText = $"select * from reversegeocoding.gpslocations where Latitude = '{lat}' and Longitude = '{lng}' ";
         mySqlCommandLatLngChckIfExists.Connection = mySqlConnection;
 
         bool latLngNotExists = true;
@@ -166,7 +171,7 @@ namespace ReverseGeocoding
           MySqlCommand mySqlCommandLatLng = new MySqlCommand();
           mySqlCommandLatLng.Connection = mySqlConnection;
 
-          mySqlCommandLatLng.CommandText = $"INSERT INTO reversegeocoding.gpslocation (Latitude, Longitude, FileName, CityID, CountryID) VALUES ('{lat}', '{lng}', '{fileName}', '{cityID}', '{countryID}');";
+          mySqlCommandLatLng.CommandText = $"INSERT INTO reversegeocoding.gpslocations (Latitude, Longitude, FileName, CityID, CountryID) VALUES ('{lat}', '{lng}', '{fileName}', '{cityID}', '{countryID}');";
           mySqlCommandLatLng.ExecuteNonQuery();
         }
       }

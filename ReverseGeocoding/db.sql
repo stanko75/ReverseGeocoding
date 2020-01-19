@@ -27,8 +27,8 @@ CREATE TABLE IF NOT EXISTS `countries` (
 
 -- Daten Export vom Benutzer nicht ausgewählt
 
--- Exportiere Struktur von Tabelle reversegeocoding.gpslocation
-CREATE TABLE IF NOT EXISTS `gpslocation` (
+-- Exportiere Struktur von Tabelle reversegeocoding.gpslocations
+CREATE TABLE IF NOT EXISTS `gpslocations` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `Latitude` decimal(10,8) NOT NULL,
   `Longitude` decimal(11,8) NOT NULL,
