@@ -168,11 +168,21 @@ namespace ReverseGeocoding
 
         if (latLngNotExists)
         {
-          MySqlCommand mySqlCommandLatLng = new MySqlCommand();
-          mySqlCommandLatLng.Connection = mySqlConnection;
+          string insertSql = $"INSERT INTO reversegeocoding.gpslocations (Latitude, Longitude, FileName, CityID, CountryID) VALUES ('{lat}', '{lng}', '{fileName}', '{cityID}', '{countryID}');";
 
-          mySqlCommandLatLng.CommandText = $"INSERT INTO reversegeocoding.gpslocations (Latitude, Longitude, FileName, CityID, CountryID) VALUES ('{lat}', '{lng}', '{fileName}', '{cityID}', '{countryID}');";
-          mySqlCommandLatLng.ExecuteNonQuery();
+          try
+          {
+            MySqlCommand mySqlCommandLatLng = new MySqlCommand();
+            mySqlCommandLatLng.Connection = mySqlConnection;
+
+            mySqlCommandLatLng.CommandText = insertSql;
+              
+            mySqlCommandLatLng.ExecuteNonQuery();
+          }
+          catch (Exception e)
+          {
+            throw new Exception($"Error: {e.Message}, SQL: {insertSql}");
+          }
         }
       }
     }
