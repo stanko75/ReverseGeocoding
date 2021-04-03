@@ -69,6 +69,12 @@ namespace ReverseGeocoding
     private static void ParseJsonAndWriteToDB(string lat, string lng, string fileName, string reverseGeocodingJson, MySqlConnection mySqlConnection)
     {
       JObject reverseGeocodingJObject = JObject.Parse(reverseGeocodingJson);
+
+      if (reverseGeocodingJObject.Count >= 3 && reverseGeocodingJObject["status"]?.ToString().ToLower() != "ok")
+      {
+        throw new Exception($"Error: {reverseGeocodingJObject["error_message"]}");
+      }
+      
       IEnumerable<JToken> addressComponentsList = reverseGeocodingJObject.SelectTokens("$..address_components");
 
       string city = string.Empty;
