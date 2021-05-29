@@ -38,16 +38,36 @@ namespace ReverseGeocoding
 
               Console.WriteLine($"Geocoding: {latLngFileName.Latitude}, {latLngFileName.Longitude}, FileName: {latLngFileName.FileName}");
 
-              string url = UrlBuilder(latLngFileName.Latitude, latLngFileName.Longitude, googleApiKey);
-              string reverseGeocodingJson = GetJson(url);
-
-              ParseJsonAndWriteToDB(latLngFileName.Latitude, latLngFileName.Longitude, latLngFileName.FileName, reverseGeocodingJson, mySqlConnection);
+              if (IsNotInDB(mySqlConnection, latLngFileName.Latitude, latLngFileName.Longitude, latLngFileName.FileName))
+              {
+                string url = UrlBuilder(latLngFileName.Latitude, latLngFileName.Longitude, googleApiKey);
+                string reverseGeocodingJson = GetJson(url);
+                ParseJsonAndWriteToDB(latLngFileName.Latitude, latLngFileName.Longitude, latLngFileName.FileName, reverseGeocodingJson, mySqlConnection);
+              }
 
             }
           }
         }
       }
 
+    }
+
+    private static bool IsNotInDB(MySqlConnection mySqlConnection, string latitude, string longitude, string fileName)
+    {
+      using (mySqlConnection)
+      {
+        mySqlConnection.Open();
+
+        MySqlCommand mySqlCommand = new MySqlCommand
+        {
+          CommandText =
+            $"select * from gpslocations where Latitude = '{latitude}' and Longitude = '{longitude}' and FileName = '{fileName}'",
+          Connection = mySqlConnection
+        };
+        MySqlDataReader mySqlDataReader = mySqlCommand.ExecuteReader();
+
+        return mySqlDataReader.HasRows;
+      }
     }
 
     private static string UrlBuilder(string lat, string lng, string googleApiKey)
