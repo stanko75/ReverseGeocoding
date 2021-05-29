@@ -1,0 +1,1183 @@
+{
+	"plus_code": {
+		"compound_code": "P4MW+6H Bonn, Germany",
+		"global_code": "9F29P4MW+6H"
+	},
+	"results": [
+		{
+			"address_components": [
+				{
+					"long_name": "56a",
+					"short_name": "56a",
+					"types": [
+						"street_number"
+					]
+				},
+				{
+					"long_name": "Wehrhausweg",
+					"short_name": "Wehrhausweg",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Beuel",
+					"short_name": "Beuel",
+					"types": [
+						"political",
+						"sublocality",
+						"sublocality_level_1"
+					]
+				},
+				{
+					"long_name": "Bonn",
+					"short_name": "BN",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"long_name": "Kreisfreie Stadt Bonn",
+					"short_name": "Kreisfreie Stadt Bonn",
+					"types": [
+						"administrative_area_level_3",
+						"political"
+					]
+				},
+				{
+					"long_name": "Köln",
+					"short_name": "K",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "Nordrhein-Westfalen",
+					"short_name": "NRW",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "53227",
+					"short_name": "53227",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Wehrhausweg 56a, 53227 Bonn, Germany",
+			"geometry": {
+				"location": {
+					"lat": 50.73295,
+					"lng": 7.146389999999999
+				},
+				"location_type": "ROOFTOP",
+				"viewport": {
+					"northeast": {
+						"lat": 50.7342989802915,
+						"lng": 7.147738980291502
+					},
+					"southwest": {
+						"lat": 50.7316010197085,
+						"lng": 7.145041019708497
+					}
+				}
+			},
+			"place_id": "ChIJswNKWzbhvkcRh6iwqPZyXzc",
+			"plus_code": {
+				"compound_code": "P4MW+5H Bonn, Germany",
+				"global_code": "9F29P4MW+5H"
+			},
+			"types": [
+				"street_address"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "56a",
+					"short_name": "56a",
+					"types": [
+						"street_number"
+					]
+				},
+				{
+					"long_name": "Wehrhausweg",
+					"short_name": "Wehrhausweg",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Beuel",
+					"short_name": "Beuel",
+					"types": [
+						"political",
+						"sublocality",
+						"sublocality_level_1"
+					]
+				},
+				{
+					"long_name": "Bonn",
+					"short_name": "BN",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"long_name": "Kreisfreie Stadt Bonn",
+					"short_name": "Kreisfreie Stadt Bonn",
+					"types": [
+						"administrative_area_level_3",
+						"political"
+					]
+				},
+				{
+					"long_name": "Köln",
+					"short_name": "K",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "Nordrhein-Westfalen",
+					"short_name": "NRW",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "53227",
+					"short_name": "53227",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Wehrhausweg 56a, 53227 Bonn, Germany",
+			"geometry": {
+				"location": {
+					"lat": 50.73295,
+					"lng": 7.146389999999999
+				},
+				"location_type": "ROOFTOP",
+				"viewport": {
+					"northeast": {
+						"lat": 50.7342989802915,
+						"lng": 7.147738980291502
+					},
+					"southwest": {
+						"lat": 50.7316010197085,
+						"lng": 7.145041019708497
+					}
+				}
+			},
+			"place_id": "ChIJswNKWzbhvkcRC5SOTehtvmc",
+			"plus_code": {
+				"compound_code": "P4MW+5H Bonn, Germany",
+				"global_code": "9F29P4MW+5H"
+			},
+			"types": [
+				"establishment",
+				"point_of_interest"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Bonn Forstweg",
+					"short_name": "Bonn Forstweg",
+					"types": [
+						"establishment",
+						"point_of_interest",
+						"transit_station"
+					]
+				},
+				{
+					"long_name": "Beuel",
+					"short_name": "Beuel",
+					"types": [
+						"political",
+						"sublocality",
+						"sublocality_level_1"
+					]
+				},
+				{
+					"long_name": "Bonn",
+					"short_name": "BN",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"long_name": "Kreisfreie Stadt Bonn",
+					"short_name": "Kreisfreie Stadt Bonn",
+					"types": [
+						"administrative_area_level_3",
+						"political"
+					]
+				},
+				{
+					"long_name": "Köln",
+					"short_name": "K",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "Nordrhein-Westfalen",
+					"short_name": "NRW",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "53227",
+					"short_name": "53227",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Bonn Forstweg, 53227 Bonn, Germany",
+			"geometry": {
+				"location": {
+					"lat": 50.733303,
+					"lng": 7.14563
+				},
+				"location_type": "GEOMETRIC_CENTER",
+				"viewport": {
+					"northeast": {
+						"lat": 50.7346519802915,
+						"lng": 7.146978980291502
+					},
+					"southwest": {
+						"lat": 50.7319540197085,
+						"lng": 7.144281019708497
+					}
+				}
+			},
+			"place_id": "ChIJWXt2VDbhvkcRETmBrElGAoM",
+			"plus_code": {
+				"compound_code": "P4MW+87 Bonn, Germany",
+				"global_code": "9F29P4MW+87"
+			},
+			"types": [
+				"establishment",
+				"point_of_interest",
+				"transit_station"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "41",
+					"short_name": "41",
+					"types": [
+						"street_number"
+					]
+				},
+				{
+					"long_name": "Wehrhausweg",
+					"short_name": "Wehrhausweg",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Beuel",
+					"short_name": "Beuel",
+					"types": [
+						"political",
+						"sublocality",
+						"sublocality_level_1"
+					]
+				},
+				{
+					"long_name": "Bonn",
+					"short_name": "BN",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"long_name": "Kreisfreie Stadt Bonn",
+					"short_name": "Kreisfreie Stadt Bonn",
+					"types": [
+						"administrative_area_level_3",
+						"political"
+					]
+				},
+				{
+					"long_name": "Köln",
+					"short_name": "K",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "Nordrhein-Westfalen",
+					"short_name": "NRW",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "53227",
+					"short_name": "53227",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Wehrhausweg 41, 53227 Bonn, Germany",
+			"geometry": {
+				"location": {
+					"lat": 50.7325631,
+					"lng": 7.146685
+				},
+				"location_type": "RANGE_INTERPOLATED",
+				"viewport": {
+					"northeast": {
+						"lat": 50.7339120802915,
+						"lng": 7.148033980291502
+					},
+					"southwest": {
+						"lat": 50.7312141197085,
+						"lng": 7.145336019708497
+					}
+				}
+			},
+			"place_id": "EiNXZWhyaGF1c3dlZyA0MSwgNTMyMjcgQm9ubiwgR2VybWFueSIaEhgKFAoSCSWD7UE24b5HEbJ2mB_sTa2pECk",
+			"types": [
+				"street_address"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "61-41",
+					"short_name": "61-41",
+					"types": [
+						"street_number"
+					]
+				},
+				{
+					"long_name": "Wehrhausweg",
+					"short_name": "Wehrhausweg",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Beuel",
+					"short_name": "Beuel",
+					"types": [
+						"political",
+						"sublocality",
+						"sublocality_level_1"
+					]
+				},
+				{
+					"long_name": "Bonn",
+					"short_name": "BN",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"long_name": "Kreisfreie Stadt Bonn",
+					"short_name": "Kreisfreie Stadt Bonn",
+					"types": [
+						"administrative_area_level_3",
+						"political"
+					]
+				},
+				{
+					"long_name": "Köln",
+					"short_name": "K",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "Nordrhein-Westfalen",
+					"short_name": "NRW",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "53227",
+					"short_name": "53227",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Wehrhausweg 61-41, 53227 Bonn, Germany",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 50.7335725,
+						"lng": 7.146685
+					},
+					"southwest": {
+						"lat": 50.7325631,
+						"lng": 7.145264099999999
+					}
+				},
+				"location": {
+					"lat": 50.7330802,
+					"lng": 7.1459974
+				},
+				"location_type": "GEOMETRIC_CENTER",
+				"viewport": {
+					"northeast": {
+						"lat": 50.7344167802915,
+						"lng": 7.147323530291502
+					},
+					"southwest": {
+						"lat": 50.7317188197085,
+						"lng": 7.144625569708498
+					}
+				}
+			},
+			"place_id": "ChIJe19EUDbhvkcR_rkZzirHXJc",
+			"types": [
+				"route"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Küdinghoven",
+					"short_name": "Küdinghoven",
+					"types": [
+						"political",
+						"sublocality",
+						"sublocality_level_2"
+					]
+				},
+				{
+					"long_name": "Beuel",
+					"short_name": "Beuel",
+					"types": [
+						"political",
+						"sublocality",
+						"sublocality_level_1"
+					]
+				},
+				{
+					"long_name": "Bonn",
+					"short_name": "BN",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"long_name": "Rhein-Sieg-Kreis",
+					"short_name": "Rhein-Sieg-Kreis",
+					"types": [
+						"administrative_area_level_3",
+						"political"
+					]
+				},
+				{
+					"long_name": "Cologne",
+					"short_name": "K",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "North Rhine-Westphalia",
+					"short_name": "NRW",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "53227",
+					"short_name": "53227",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Küdinghoven, 53227 Bonn, Germany",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 50.737275,
+						"lng": 7.1529354
+					},
+					"southwest": {
+						"lat": 50.72628630000001,
+						"lng": 7.131957099999999
+					}
+				},
+				"location": {
+					"lat": 50.73225739999999,
+					"lng": 7.1467237
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 50.737275,
+						"lng": 7.1529354
+					},
+					"southwest": {
+						"lat": 50.72628630000001,
+						"lng": 7.131957099999999
+					}
+				}
+			},
+			"place_id": "ChIJbQeVIEzhvkcRAi5wUHqkCtc",
+			"types": [
+				"political",
+				"sublocality",
+				"sublocality_level_2"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "53227",
+					"short_name": "53227",
+					"types": [
+						"postal_code"
+					]
+				},
+				{
+					"long_name": "Beuel",
+					"short_name": "Beuel",
+					"types": [
+						"political",
+						"sublocality",
+						"sublocality_level_1"
+					]
+				},
+				{
+					"long_name": "Bonn",
+					"short_name": "BN",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"long_name": "Cologne",
+					"short_name": "K",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "North Rhine-Westphalia",
+					"short_name": "NRW",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "53227 Bonn, Germany",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 50.7455381,
+						"lng": 7.1970339
+					},
+					"southwest": {
+						"lat": 50.703346,
+						"lng": 7.1227931
+					}
+				},
+				"location": {
+					"lat": 50.7225704,
+					"lng": 7.1557344
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 50.7455381,
+						"lng": 7.1970339
+					},
+					"southwest": {
+						"lat": 50.703346,
+						"lng": 7.1227931
+					}
+				}
+			},
+			"place_id": "ChIJwfTzVrHmvkcRAJAlq_9gJxw",
+			"types": [
+				"postal_code"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Beuel",
+					"short_name": "Beuel",
+					"types": [
+						"political",
+						"sublocality",
+						"sublocality_level_1"
+					]
+				},
+				{
+					"long_name": "Bonn",
+					"short_name": "BN",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"long_name": "Rhein-Sieg-Kreis",
+					"short_name": "Rhein-Sieg-Kreis",
+					"types": [
+						"administrative_area_level_3",
+						"political"
+					]
+				},
+				{
+					"long_name": "Cologne",
+					"short_name": "K",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "North Rhine-Westphalia",
+					"short_name": "NRW",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "Beuel, Bonn, Germany",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 50.7743559,
+						"lng": 7.209092000000001
+					},
+					"southwest": {
+						"lat": 50.7030959,
+						"lng": 7.075691900000001
+					}
+				},
+				"location": {
+					"lat": 50.743865,
+					"lng": 7.122701699999999
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 50.7743559,
+						"lng": 7.209092000000001
+					},
+					"southwest": {
+						"lat": 50.7030959,
+						"lng": 7.075691900000001
+					}
+				}
+			},
+			"place_id": "ChIJqeafpBPhvkcRIINmvzOpUg4",
+			"types": [
+				"political",
+				"sublocality",
+				"sublocality_level_1"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Bonn",
+					"short_name": "BN",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"long_name": "Rhein-Sieg-Kreis",
+					"short_name": "Rhein-Sieg-Kreis",
+					"types": [
+						"administrative_area_level_3",
+						"political"
+					]
+				},
+				{
+					"long_name": "Cologne",
+					"short_name": "K",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "North Rhine-Westphalia",
+					"short_name": "NRW",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "Bonn, Germany",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 50.7744264,
+						"lng": 7.2120481
+					},
+					"southwest": {
+						"lat": 50.6327276,
+						"lng": 7.0225513
+					}
+				},
+				"location": {
+					"lat": 50.73743,
+					"lng": 7.0982068
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 50.7744264,
+						"lng": 7.2120481
+					},
+					"southwest": {
+						"lat": 50.6327276,
+						"lng": 7.0225513
+					}
+				}
+			},
+			"place_id": "ChIJSdrLfJ_hvkcRF5ZcaMb424Y",
+			"types": [
+				"locality",
+				"political"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Kreisfreie Stadt Bonn",
+					"short_name": "Kreisfreie Stadt Bonn",
+					"types": [
+						"administrative_area_level_3",
+						"political"
+					]
+				},
+				{
+					"long_name": "Bonn",
+					"short_name": "BN",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"long_name": "Köln",
+					"short_name": "K",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "Nordrhein-Westfalen",
+					"short_name": "NRW",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "Kreisfreie Stadt Bonn, Bonn, Germany",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 50.77443539999999,
+						"lng": 7.2108717
+					},
+					"southwest": {
+						"lat": 50.6318659,
+						"lng": 7.0234864
+					}
+				},
+				"location": {
+					"lat": 50.7373298,
+					"lng": 7.098197099999999
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 50.77443539999999,
+						"lng": 7.2108717
+					},
+					"southwest": {
+						"lat": 50.6318659,
+						"lng": 7.0234864
+					}
+				}
+			},
+			"place_id": "ChIJUdzz5dzjvkcROGxd397czWA",
+			"types": [
+				"administrative_area_level_3",
+				"political"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Cologne",
+					"short_name": "K",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "North Rhine-Westphalia",
+					"short_name": "NRW",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "Cologne, Germany",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 51.2505257,
+						"lng": 7.791868999999999
+					},
+					"southwest": {
+						"lat": 50.322701,
+						"lng": 5.8663425
+					}
+				},
+				"location": {
+					"lat": 50.8993757,
+					"lng": 6.776658299999999
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 51.2505257,
+						"lng": 7.791868999999999
+					},
+					"southwest": {
+						"lat": 50.322701,
+						"lng": 5.8663425
+					}
+				}
+			},
+			"place_id": "ChIJ5S-raZElv0cRoOwpSvxgJwM",
+			"types": [
+				"administrative_area_level_2",
+				"political"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "North Rhine-Westphalia",
+					"short_name": "NRW",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "North Rhine-Westphalia, Germany",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 52.53146959999999,
+						"lng": 9.461634900000002
+					},
+					"southwest": {
+						"lat": 50.322701,
+						"lng": 5.8663425
+					}
+				},
+				"location": {
+					"lat": 51.43323669999999,
+					"lng": 7.661593799999999
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 52.53146959999999,
+						"lng": 9.461634900000002
+					},
+					"southwest": {
+						"lat": 50.322701,
+						"lng": 5.8663425
+					}
+				}
+			},
+			"place_id": "ChIJoUhCjnwWuUcRX4_XT34yTC8",
+			"types": [
+				"administrative_area_level_1",
+				"political"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "Germany",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 55.0815,
+						"lng": 15.0418962
+					},
+					"southwest": {
+						"lat": 47.2701115,
+						"lng": 5.8663425
+					}
+				},
+				"location": {
+					"lat": 51.165691,
+					"lng": 10.451526
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 55.0815,
+						"lng": 15.0418962
+					},
+					"southwest": {
+						"lat": 47.2701115,
+						"lng": 5.8663425
+					}
+				}
+			},
+			"place_id": "ChIJa76xwh5ymkcRW-WRjmtd6HU",
+			"types": [
+				"country",
+				"political"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "P4MW+6H",
+					"short_name": "P4MW+6H",
+					"types": [
+						"plus_code"
+					]
+				},
+				{
+					"long_name": "Bonn",
+					"short_name": "BN",
+					"types": [
+						"locality",
+						"political"
+					]
+				},
+				{
+					"long_name": "Rhein-Sieg-Kreis",
+					"short_name": "Rhein-Sieg-Kreis",
+					"types": [
+						"administrative_area_level_3",
+						"political"
+					]
+				},
+				{
+					"long_name": "Cologne",
+					"short_name": "K",
+					"types": [
+						"administrative_area_level_2",
+						"political"
+					]
+				},
+				{
+					"long_name": "North Rhine-Westphalia",
+					"short_name": "NRW",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Germany",
+					"short_name": "DE",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "P4MW+6H Bonn, Germany",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 50.733125,
+						"lng": 7.146500000000001
+					},
+					"southwest": {
+						"lat": 50.733,
+						"lng": 7.146375000000001
+					}
+				},
+				"location": {
+					"lat": 50.7330556,
+					"lng": 7.1463889
+				},
+				"location_type": "ROOFTOP",
+				"viewport": {
+					"northeast": {
+						"lat": 50.7344114802915,
+						"lng": 7.147786480291503
+					},
+					"southwest": {
+						"lat": 50.7317135197085,
+						"lng": 7.145088519708499
+					}
+				}
+			},
+			"place_id": "GhIJKBMSxNRdSUARWv3H-OaVHEA",
+			"plus_code": {
+				"compound_code": "P4MW+6H Bonn, Germany",
+				"global_code": "9F29P4MW+6H"
+			},
+			"types": [
+				"plus_code"
+			]
+		}
+	],
+	"status": "OK"
+}

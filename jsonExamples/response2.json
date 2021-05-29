@@ -1,0 +1,386 @@
+{
+   "plus_code" : {
+      "compound_code" : "J34C+FM Terenzo, Province of Parma, Italy",
+      "global_code" : "8FPGJ34C+FM"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Strada Statale 62",
+               "short_name" : "SS62",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Terenzo",
+               "short_name" : "Terenzo",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Provincia di Parma",
+               "short_name" : "PR",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Emilia-Romagna",
+               "short_name" : "Emilia-Romagna",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "43040",
+               "short_name" : "43040",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "SS62, 43040 Terenzo PR, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 44.6066153,
+                  "lng" : 10.0722974
+               },
+               "southwest" : {
+                  "lat" : 44.60309059999999,
+                  "lng" : 10.0716675
+               }
+            },
+            "location" : {
+               "lat" : 44.6048505,
+               "lng" : 10.0721883
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 44.6066153,
+                  "lng" : 10.0733314302915
+               },
+               "southwest" : {
+                  "lat" : 44.60309059999999,
+                  "lng" : 10.0706334697085
+               }
+            }
+         },
+         "place_id" : "ChIJAWd3BLl5gEcRCOiZfQQeAys",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Terenzo",
+               "short_name" : "Terenzo",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Province of Parma",
+               "short_name" : "PR",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Emilia-Romagna",
+               "short_name" : "Emilia-Romagna",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "43040",
+               "short_name" : "43040",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "43040 Terenzo, Province of Parma, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 44.6532233,
+                  "lng" : 10.1729167
+               },
+               "southwest" : {
+                  "lat" : 44.5629566,
+                  "lng" : 9.977658600000002
+               }
+            },
+            "location" : {
+               "lat" : 44.6105631,
+               "lng" : 10.0776186
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 44.6532233,
+                  "lng" : 10.1729167
+               },
+               "southwest" : {
+                  "lat" : 44.5629566,
+                  "lng" : 9.977658600000002
+               }
+            }
+         },
+         "place_id" : "ChIJmQzJer95gEcRYHm7_AubBwQ",
+         "types" : [ "administrative_area_level_3", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "43040",
+               "short_name" : "43040",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "Province of Parma",
+               "short_name" : "PR",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Emilia-Romagna",
+               "short_name" : "Emilia-Romagna",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "43040 Province of Parma, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 44.729963,
+                  "lng" : 10.1729145
+               },
+               "southwest" : {
+                  "lat" : 44.5629781,
+                  "lng" : 9.876213
+               }
+            },
+            "location" : {
+               "lat" : 44.6547269,
+               "lng" : 10.0007446
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 44.729963,
+                  "lng" : 10.1729145
+               },
+               "southwest" : {
+                  "lat" : 44.5629781,
+                  "lng" : 9.876213
+               }
+            }
+         },
+         "place_id" : "ChIJhRWH7_Z7gEcRYMnkVw-bBxw",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Province of Parma",
+               "short_name" : "PR",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Emilia-Romagna",
+               "short_name" : "Emilia-Romagna",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Province of Parma, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.0444211,
+                  "lng" : 10.5043433
+               },
+               "southwest" : {
+                  "lat" : 44.3461033,
+                  "lng" : 9.438190199999999
+               }
+            },
+            "location" : {
+               "lat" : 44.8015322,
+               "lng" : 10.3279354
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.0444211,
+                  "lng" : 10.5043433
+               },
+               "southwest" : {
+                  "lat" : 44.3461033,
+                  "lng" : 9.438190199999999
+               }
+            }
+         },
+         "place_id" : "ChIJGR1fmj99gEcRgH-6_AubBwM",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Emilia-Romagna",
+               "short_name" : "Emilia-Romagna",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Emilia-Romagna, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.1391189,
+                  "lng" : 12.7556401
+               },
+               "southwest" : {
+                  "lat" : 43.7318908,
+                  "lng" : 9.197932999999999
+               }
+            },
+            "location" : {
+               "lat" : 44.5967607,
+               "lng" : 11.2186396
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.1391189,
+                  "lng" : 12.7556401
+               },
+               "southwest" : {
+                  "lat" : 43.7318908,
+                  "lng" : 9.197932999999999
+               }
+            }
+         },
+         "place_id" : "ChIJ3YXzRny1KhMRoHy6_AubBwE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 47.092,
+                  "lng" : 18.7975999
+               },
+               "southwest" : {
+                  "lat" : 35.4897,
+                  "lng" : 6.6267201
+               }
+            },
+            "location" : {
+               "lat" : 41.87194,
+               "lng" : 12.56738
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.092,
+                  "lng" : 18.7975999
+               },
+               "southwest" : {
+                  "lat" : 35.4897,
+                  "lng" : 6.6267201
+               }
+            }
+         },
+         "place_id" : "ChIJA9KNRIL-1BIRb15jJFz1LOI",
+         "types" : [ "country", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "J34C+FM",
+               "short_name" : "J34C+FM",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Terenzo",
+               "short_name" : "Terenzo",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Province of Parma",
+               "short_name" : "PR",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Emilia-Romagna",
+               "short_name" : "Emilia-Romagna",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "43040",
+               "short_name" : "43040",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "J34C+FM Terenzo, Province of Parma, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 44.60625,
+                  "lng" : 10.07175
+               },
+               "southwest" : {
+                  "lat" : 44.606125,
+                  "lng" : 10.071625
+               }
+            },
+            "location" : {
+               "lat" : 44.6061519,
+               "lng" : 10.0716561
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 44.6075364802915,
+                  "lng" : 10.0730364802915
+               },
+               "southwest" : {
+                  "lat" : 44.6048385197085,
+                  "lng" : 10.0703385197085
+               }
+            }
+         },
+         "place_id" : "GhIJQnStYpZNRkARKR68G7AkJEA",
+         "plus_code" : {
+            "compound_code" : "J34C+FM Terenzo, Province of Parma, Italy",
+            "global_code" : "8FPGJ34C+FM"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

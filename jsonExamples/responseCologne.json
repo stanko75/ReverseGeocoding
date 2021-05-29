@@ -1,0 +1,823 @@
+{
+   "plus_code" : {
+      "compound_code" : "VX4C+8C Cologne, Germany",
+      "global_code" : "9F28VX4C+8C"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "6A",
+               "short_name" : "6A",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Drosselweg",
+               "short_name" : "Drosselweg",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Rodenkirchen",
+               "short_name" : "Rodenkirchen",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Köln",
+               "short_name" : "Köln",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kreisfreie Stadt Köln",
+               "short_name" : "Kreisfreie Stadt Köln",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Köln",
+               "short_name" : "K",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Nordrhein-Westfalen",
+               "short_name" : "NRW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "50997",
+               "short_name" : "50997",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Drosselweg 6A, 50997 Köln, Germany",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.8557891,
+               "lng" : 6.971133699999999
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.8571380802915,
+                  "lng" : 6.972482680291502
+               },
+               "southwest" : {
+                  "lat" : 50.8544401197085,
+                  "lng" : 6.969784719708497
+               }
+            }
+         },
+         "place_id" : "ChIJ8WAVaNcjv0cRwA9j4gjo7eU",
+         "plus_code" : {
+            "compound_code" : "VX4C+8F Cologne, Germany",
+            "global_code" : "9F28VX4C+8F"
+         },
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "5",
+               "short_name" : "5",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Drosselweg",
+               "short_name" : "Drosselweg",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Rodenkirchen",
+               "short_name" : "Rodenkirchen",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Köln",
+               "short_name" : "Köln",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kreisfreie Stadt Köln",
+               "short_name" : "Kreisfreie Stadt Köln",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Köln",
+               "short_name" : "K",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Nordrhein-Westfalen",
+               "short_name" : "NRW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "50997",
+               "short_name" : "50997",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Drosselweg 5, 50997 Köln, Germany",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 50.8556464,
+                  "lng" : 6.9713106
+               },
+               "southwest" : {
+                  "lat" : 50.8555491,
+                  "lng" : 6.9711669
+               }
+            },
+            "location" : {
+               "lat" : 50.85559929999999,
+               "lng" : 6.9712216
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.8569467302915,
+                  "lng" : 6.972587730291503
+               },
+               "southwest" : {
+                  "lat" : 50.8542487697085,
+                  "lng" : 6.969889769708498
+               }
+            }
+         },
+         "place_id" : "ChIJzfxmadcjv0cRrD71sVO_xio",
+         "types" : [ "premise" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "10",
+               "short_name" : "10",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Drosselweg",
+               "short_name" : "Drosselweg",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Rodenkirchen",
+               "short_name" : "Rodenkirchen",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Köln",
+               "short_name" : "Köln",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kreisfreie Stadt Köln",
+               "short_name" : "Kreisfreie Stadt Köln",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Köln",
+               "short_name" : "K",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Nordrhein-Westfalen",
+               "short_name" : "NRW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "50997",
+               "short_name" : "50997",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Drosselweg 10, 50997 Köln, Germany",
+         "geometry" : {
+            "location" : {
+               "lat" : 50.8557563,
+               "lng" : 6.9706448
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.8571052802915,
+                  "lng" : 6.971993780291502
+               },
+               "southwest" : {
+                  "lat" : 50.8544073197085,
+                  "lng" : 6.969295819708497
+               }
+            }
+         },
+         "place_id" : "ChIJdaLtRNcjv0cRBgkTHLtAK7Y",
+         "plus_code" : {
+            "compound_code" : "VX4C+87 Cologne, Germany",
+            "global_code" : "9F28VX4C+87"
+         },
+         "types" : [ "electrician", "establishment", "point_of_interest" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "14-1",
+               "short_name" : "14-1",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Drosselweg",
+               "short_name" : "Drosselweg",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Rodenkirchen",
+               "short_name" : "Rodenkirchen",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Köln",
+               "short_name" : "Köln",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kreisfreie Stadt Köln",
+               "short_name" : "Kreisfreie Stadt Köln",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Köln",
+               "short_name" : "K",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Nordrhein-Westfalen",
+               "short_name" : "NRW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "50997",
+               "short_name" : "50997",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Drosselweg 14-1, 50997 Köln, Germany",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 50.85576529999999,
+                  "lng" : 6.972202299999999
+               },
+               "southwest" : {
+                  "lat" : 50.8556609,
+                  "lng" : 6.9705392
+               }
+            },
+            "location" : {
+               "lat" : 50.8557049,
+               "lng" : 6.971369699999999
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.8570620802915,
+                  "lng" : 6.972719730291502
+               },
+               "southwest" : {
+                  "lat" : 50.8543641197085,
+                  "lng" : 6.970021769708498
+               }
+            }
+         },
+         "place_id" : "ChIJPZrZaNcjv0cReHd87A3CGDs",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Godorf",
+               "short_name" : "Godorf",
+               "types" : [ "political", "sublocality", "sublocality_level_2" ]
+            },
+            {
+               "long_name" : "Rodenkirchen",
+               "short_name" : "Rodenkirchen",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Köln",
+               "short_name" : "Köln",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Köln",
+               "short_name" : "K",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Nordrhein-Westfalen",
+               "short_name" : "NRW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Godorf, Köln, Germany",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 50.87067,
+                  "lng" : 7.004988999999999
+               },
+               "southwest" : {
+                  "lat" : 50.83115300000001,
+                  "lng" : 6.96435
+               }
+            },
+            "location" : {
+               "lat" : 50.8534581,
+               "lng" : 6.9786695
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.87067,
+                  "lng" : 7.004988999999999
+               },
+               "southwest" : {
+                  "lat" : 50.83115300000001,
+                  "lng" : 6.96435
+               }
+            }
+         },
+         "place_id" : "ChIJwfrdeXwhv0cRYLYtSvxgJwU",
+         "types" : [ "political", "sublocality", "sublocality_level_2" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "50997",
+               "short_name" : "50997",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "Rodenkirchen",
+               "short_name" : "Rodenkirchen",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Cologne",
+               "short_name" : "Cologne",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Cologne",
+               "short_name" : "K",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "North Rhine-Westphalia",
+               "short_name" : "NRW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "50997 Cologne, Germany",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 50.89581,
+                  "lng" : 6.9985129
+               },
+               "southwest" : {
+                  "lat" : 50.834711,
+                  "lng" : 6.9129039
+               }
+            },
+            "location" : {
+               "lat" : 50.8585477,
+               "lng" : 6.9372374
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.89581,
+                  "lng" : 6.9985129
+               },
+               "southwest" : {
+                  "lat" : 50.834711,
+                  "lng" : 6.9129039
+               }
+            }
+         },
+         "place_id" : "ChIJyShup8Ejv0cRYJIlq_9gJxw",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Rodenkirchen",
+               "short_name" : "Rodenkirchen",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "Cologne",
+               "short_name" : "Cologne",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kreisfreie Stadt Köln",
+               "short_name" : "Kreisfreie Stadt Köln",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Cologne",
+               "short_name" : "K",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "North Rhine-Westphalia",
+               "short_name" : "NRW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Rodenkirchen, Cologne, Germany",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 50.92293309999999,
+                  "lng" : 7.0515439
+               },
+               "southwest" : {
+                  "lat" : 50.8347276,
+                  "lng" : 6.912858200000001
+               }
+            },
+            "location" : {
+               "lat" : 50.8645066,
+               "lng" : 6.973880599999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.92293309999999,
+                  "lng" : 7.0515439
+               },
+               "southwest" : {
+                  "lat" : 50.8347276,
+                  "lng" : 6.912858200000001
+               }
+            }
+         },
+         "place_id" : "ChIJfTIk-Vchv0cRtwaiUy-8Anw",
+         "types" : [ "political", "sublocality", "sublocality_level_1" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Cologne",
+               "short_name" : "Cologne",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kreisfreie Stadt Köln",
+               "short_name" : "Kreisfreie Stadt Köln",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Cologne",
+               "short_name" : "K",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "North Rhine-Westphalia",
+               "short_name" : "NRW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Cologne, Germany",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 51.08496299999999,
+                  "lng" : 7.1620628
+               },
+               "southwest" : {
+                  "lat" : 50.8304427,
+                  "lng" : 6.7725819
+               }
+            },
+            "location" : {
+               "lat" : 50.937531,
+               "lng" : 6.9602786
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 51.08496299999999,
+                  "lng" : 7.1620628
+               },
+               "southwest" : {
+                  "lat" : 50.8304427,
+                  "lng" : 6.7725819
+               }
+            }
+         },
+         "place_id" : "ChIJ5S-raZElv0cR8HcqSvxgJwQ",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Kreisfreie Stadt Köln",
+               "short_name" : "Kreisfreie Stadt Köln",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Köln",
+               "short_name" : "Köln",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Köln",
+               "short_name" : "K",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Nordrhein-Westfalen",
+               "short_name" : "NRW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Kreisfreie Stadt Köln, Köln, Germany",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 51.0845655,
+                  "lng" : 7.1636227
+               },
+               "southwest" : {
+                  "lat" : 50.8296299,
+                  "lng" : 6.7723761
+               }
+            },
+            "location" : {
+               "lat" : 50.9374947,
+               "lng" : 6.9602711
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 51.0845655,
+                  "lng" : 7.1636227
+               },
+               "southwest" : {
+                  "lat" : 50.8296299,
+                  "lng" : 6.7723761
+               }
+            }
+         },
+         "place_id" : "ChIJsQFTWZElv0cRWG-5UZKkmb0",
+         "types" : [ "administrative_area_level_3", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Cologne",
+               "short_name" : "K",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "North Rhine-Westphalia",
+               "short_name" : "NRW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Cologne, Germany",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 51.2505257,
+                  "lng" : 7.791868999999999
+               },
+               "southwest" : {
+                  "lat" : 50.322701,
+                  "lng" : 5.8663425
+               }
+            },
+            "location" : {
+               "lat" : 50.8993757,
+               "lng" : 6.776658299999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 51.2505257,
+                  "lng" : 7.791868999999999
+               },
+               "southwest" : {
+                  "lat" : 50.322701,
+                  "lng" : 5.8663425
+               }
+            }
+         },
+         "place_id" : "ChIJ5S-raZElv0cRoOwpSvxgJwM",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "North Rhine-Westphalia",
+               "short_name" : "NRW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "North Rhine-Westphalia, Germany",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 52.53146959999999,
+                  "lng" : 9.461634900000002
+               },
+               "southwest" : {
+                  "lat" : 50.322701,
+                  "lng" : 5.8663425
+               }
+            },
+            "location" : {
+               "lat" : 51.43323669999999,
+               "lng" : 7.661593799999999
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.53146959999999,
+                  "lng" : 9.461634900000002
+               },
+               "southwest" : {
+                  "lat" : 50.322701,
+                  "lng" : 5.8663425
+               }
+            }
+         },
+         "place_id" : "ChIJoUhCjnwWuUcRX4_XT34yTC8",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Germany",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 55.0815,
+                  "lng" : 15.0418962
+               },
+               "southwest" : {
+                  "lat" : 47.2701115,
+                  "lng" : 5.8663425
+               }
+            },
+            "location" : {
+               "lat" : 51.165691,
+               "lng" : 10.451526
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 55.0815,
+                  "lng" : 15.0418962
+               },
+               "southwest" : {
+                  "lat" : 47.2701115,
+                  "lng" : 5.8663425
+               }
+            }
+         },
+         "place_id" : "ChIJa76xwh5ymkcRW-WRjmtd6HU",
+         "types" : [ "country", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "VX4C+8C",
+               "short_name" : "VX4C+8C",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Cologne",
+               "short_name" : "Cologne",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kreisfreie Stadt Köln",
+               "short_name" : "Kreisfreie Stadt Köln",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Cologne",
+               "short_name" : "K",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "North Rhine-Westphalia",
+               "short_name" : "NRW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "VX4C+8C Cologne, Germany",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 50.855875,
+                  "lng" : 6.971125
+               },
+               "southwest" : {
+                  "lat" : 50.85575,
+                  "lng" : 6.971
+               }
+            },
+            "location" : {
+               "lat" : 50.8558333,
+               "lng" : 6.9711111
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 50.8571614802915,
+                  "lng" : 6.972411480291503
+               },
+               "southwest" : {
+                  "lat" : 50.8544635197085,
+                  "lng" : 6.969713519708498
+               }
+            }
+         },
+         "place_id" : "GhIJ9CkR8ottSUARXiG98mriG0A",
+         "plus_code" : {
+            "compound_code" : "VX4C+8C Cologne, Germany",
+            "global_code" : "9F28VX4C+8C"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

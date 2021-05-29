@@ -1,0 +1,310 @@
+{
+   "plus_code" : {
+      "compound_code" : "CQH8+2Q Dobrota, Montenegro",
+      "global_code" : "8FJWCQH8+2Q"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Trajekt Kotor",
+               "short_name" : "Trajekt Kotor",
+               "types" : [ "establishment", "point_of_interest", "transit_station" ]
+            },
+            {
+               "long_name" : "E65",
+               "short_name" : "E65",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Dobrota",
+               "short_name" : "Dobrota",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Montenegro",
+               "short_name" : "ME",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Trajekt Kotor, E65, Dobrota, Montenegro",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.4283191,
+               "lng" : 18.7681246
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.4296680802915,
+                  "lng" : 18.7694735802915
+               },
+               "southwest" : {
+                  "lat" : 42.4269701197085,
+                  "lng" : 18.7667756197085
+               }
+            }
+         },
+         "place_id" : "ChIJ_R0GlwUzTBMRebL-srhbx4k",
+         "plus_code" : {
+            "compound_code" : "CQH9+86 Dobrota, Montenegro",
+            "global_code" : "8FJWCQH9+86"
+         },
+         "types" : [ "establishment", "point_of_interest", "transit_station" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "1",
+               "short_name" : "1",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Put I Bokeljske Brigade",
+               "short_name" : "Put I Bokeljske Brigade",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Dobrota",
+               "short_name" : "Dobrota",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Opština Kotor",
+               "short_name" : "Opština Kotor",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Montenegro",
+               "short_name" : "ME",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "1 Put I Bokeljske Brigade, Dobrota, Montenegro",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.4287707,
+               "lng" : 18.7688154
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.4301196802915,
+                  "lng" : 18.7701643802915
+               },
+               "southwest" : {
+                  "lat" : 42.42742171970851,
+                  "lng" : 18.76746641970849
+               }
+            }
+         },
+         "place_id" : "ChIJYcoBgwUzTBMRuDnd5Yw5IbE",
+         "plus_code" : {
+            "compound_code" : "CQH9+GG Dobrota, Montenegro",
+            "global_code" : "8FJWCQH9+GG"
+         },
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "E65",
+               "short_name" : "E65",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Kotor",
+               "short_name" : "Kotor",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kotor Municipality",
+               "short_name" : "Kotor Municipality",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Montenegro",
+               "short_name" : "ME",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "E65, Kotor, Montenegro",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.4275232,
+                  "lng" : 18.7689078
+               },
+               "southwest" : {
+                  "lat" : 42.4261175,
+                  "lng" : 18.7685081
+               }
+            },
+            "location" : {
+               "lat" : 42.4268208,
+               "lng" : 18.7687051
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.4281693302915,
+                  "lng" : 18.7700569302915
+               },
+               "southwest" : {
+                  "lat" : 42.4254713697085,
+                  "lng" : 18.7673589697085
+               }
+            }
+         },
+         "place_id" : "ChIJ9wOgrAUzTBMR2BSUlAiIU6I",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "5",
+               "short_name" : "5",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Put I Bokeljske Brigade",
+               "short_name" : "Put I Bokeljske Brigade",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Dobrota",
+               "short_name" : "Dobrota",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Opština Kotor",
+               "short_name" : "Opština Kotor",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Montenegro",
+               "short_name" : "ME",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "5 Put I Bokeljske Brigade, Dobrota, Montenegro",
+         "geometry" : {
+            "location" : {
+               "lat" : 42.43004510000001,
+               "lng" : 18.7678233
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.43139408029151,
+                  "lng" : 18.7691722802915
+               },
+               "southwest" : {
+                  "lat" : 42.42869611970851,
+                  "lng" : 18.7664743197085
+               }
+            }
+         },
+         "place_id" : "Ei41IFB1dCBJIEJva2VsanNrZSBCcmlnYWRlLCBEb2Jyb3RhLCBNb250ZW5lZ3JvIhoSGAoUChIJJTNxcA8zTBMRVuvUBgjkWL4QBQ",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Montenegro",
+               "short_name" : "ME",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Montenegro",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 43.558743,
+                  "lng" : 20.352926
+               },
+               "southwest" : {
+                  "lat" : 41.8297,
+                  "lng" : 18.4337921
+               }
+            },
+            "location" : {
+               "lat" : 42.708678,
+               "lng" : 19.37439
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.558743,
+                  "lng" : 20.352926
+               },
+               "southwest" : {
+                  "lat" : 41.8297,
+                  "lng" : 18.4337921
+               }
+            }
+         },
+         "place_id" : "ChIJyx8sJBcyTBMRRtP_boadTDg",
+         "types" : [ "country", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "CQH8+2Q",
+               "short_name" : "CQH8+2Q",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Dobrota",
+               "short_name" : "Dobrota",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Kotor Municipality",
+               "short_name" : "Kotor Municipality",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Montenegro",
+               "short_name" : "ME",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "CQH8+2Q Dobrota, Montenegro",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 42.427625,
+                  "lng" : 18.767
+               },
+               "southwest" : {
+                  "lat" : 42.42749999999999,
+                  "lng" : 18.766875
+               }
+            },
+            "location" : {
+               "lat" : 42.42749999999999,
+               "lng" : 18.7669444
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 42.4289114802915,
+                  "lng" : 18.7682864802915
+               },
+               "southwest" : {
+                  "lat" : 42.4262135197085,
+                  "lng" : 18.7655885197085
+               }
+            }
+         },
+         "place_id" : "GhIJHoXrUbg2RUARsNnbd1bEMkA",
+         "plus_code" : {
+            "compound_code" : "CQH8+2Q Dobrota, Montenegro",
+            "global_code" : "8FJWCQH8+2Q"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

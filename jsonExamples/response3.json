@@ -1,0 +1,317 @@
+{
+   "plus_code" : {
+      "compound_code" : "8R72+46 Novi Sad, Serbia",
+      "global_code" : "8FQX8R72+46"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "А1",
+               "short_name" : "А1",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Novi Sad",
+               "short_name" : "NS",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Južnobački okrug",
+               "short_name" : "Južnobački okrug",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "А1, Novi Sad, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.3146397,
+                  "lng" : 19.8079758
+               },
+               "southwest" : {
+                  "lat" : 45.3091446,
+                  "lng" : 19.7977385
+               }
+            },
+            "location" : {
+               "lat" : 45.3115338,
+               "lng" : 19.8024689
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.3146397,
+                  "lng" : 19.8079758
+               },
+               "southwest" : {
+                  "lat" : 45.3091446,
+                  "lng" : 19.7977385
+               }
+            }
+         },
+         "place_id" : "ChIJO-9p9FQRW0cRnFVibRm5ubU",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Novi Sad",
+               "short_name" : "Novi Sad",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Južnobački okrug",
+               "short_name" : "Južnobački okrug",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Novi Sad, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.4314671,
+                  "lng" : 20.1044656
+               },
+               "southwest" : {
+                  "lat" : 45.1646107,
+                  "lng" : 19.556694
+               }
+            },
+            "location" : {
+               "lat" : 45.2888544,
+               "lng" : 19.7244979
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4314671,
+                  "lng" : 20.1044656
+               },
+               "southwest" : {
+                  "lat" : 45.1646107,
+                  "lng" : 19.556694
+               }
+            }
+         },
+         "place_id" : "ChIJv2E_qh8RW0cRB6CMfo4BJns",
+         "types" : [ "administrative_area_level_3", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "South Backa District",
+               "short_name" : "South Backa District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "South Backa District, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.7750259,
+                  "lng" : 20.313821
+               },
+               "southwest" : {
+                  "lat" : 45.133575,
+                  "lng" : 18.981784
+               }
+            },
+            "location" : {
+               "lat" : 45.4890344,
+               "lng" : 19.6976187
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.7750259,
+                  "lng" : 20.313821
+               },
+               "southwest" : {
+                  "lat" : 45.133575,
+                  "lng" : 18.981784
+               }
+            }
+         },
+         "place_id" : "ChIJ4XXpKjRqW0cRVR4EWGiY76I",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Vojvodina, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.1912459,
+                  "lng" : 21.56465
+               },
+               "southwest" : {
+                  "lat" : 44.6294639,
+                  "lng" : 18.8493741
+               }
+            },
+            "location" : {
+               "lat" : 45.2608651,
+               "lng" : 19.8319338
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.1912459,
+                  "lng" : 21.56465
+               },
+               "southwest" : {
+                  "lat" : 44.6294639,
+                  "lng" : 18.8493741
+               }
+            }
+         },
+         "place_id" : "ChIJwacVX8xmQ0cRj2JoJcRMC3c",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.190032,
+                  "lng" : 23.0063095
+               },
+               "southwest" : {
+                  "lat" : 42.2315029,
+                  "lng" : 18.8385221
+               }
+            },
+            "location" : {
+               "lat" : 44.016521,
+               "lng" : 21.005859
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.190032,
+                  "lng" : 23.0063095
+               },
+               "southwest" : {
+                  "lat" : 42.2315029,
+                  "lng" : 18.8385221
+               }
+            }
+         },
+         "place_id" : "ChIJlYCJ8t8dV0cRXYYjN-pQXgU",
+         "types" : [ "country", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "8R72+46",
+               "short_name" : "8R72+46",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Novi Sad",
+               "short_name" : "NS",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "South Backa District",
+               "short_name" : "South Backa District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "8R72+46 Novi Sad, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.312875,
+                  "lng" : 19.800625
+               },
+               "southwest" : {
+                  "lat" : 45.31275,
+                  "lng" : 19.8005
+               }
+            },
+            "location" : {
+               "lat" : 45.3127778,
+               "lng" : 19.8005556
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.3141614802915,
+                  "lng" : 19.8019114802915
+               },
+               "southwest" : {
+                  "lat" : 45.3114635197085,
+                  "lng" : 19.7992135197085
+               }
+            }
+         },
+         "place_id" : "GhIJGfVaGgmoRkARMaE4NvHMM0A",
+         "plus_code" : {
+            "compound_code" : "8R72+46 Novi Sad, Serbia",
+            "global_code" : "8FQX8R72+46"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,523 @@
+{
+   "plus_code" : {
+      "compound_code" : "677X+29 Legnago, VR, Italy",
+      "global_code" : "8FQH677X+29"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "12",
+               "short_name" : "12",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Via San Tomaso",
+               "short_name" : "Via S. Tomaso",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "San Tomaso",
+               "short_name" : "San Tomaso",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Legnago",
+               "short_name" : "Legnago",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Provincia di Verona",
+               "short_name" : "VR",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Veneto",
+               "short_name" : "Veneto",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "37045",
+               "short_name" : "37045",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Via S. Tomaso, 12, 37045 San Tomaso VR, Italy",
+         "geometry" : {
+            "location" : {
+               "lat" : 45.2124522,
+               "lng" : 11.3004745
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.2138011802915,
+                  "lng" : 11.3018234802915
+               },
+               "southwest" : {
+                  "lat" : 45.21110321970851,
+                  "lng" : 11.2991255197085
+               }
+            }
+         },
+         "place_id" : "ChIJF1L_9ewSf0cR0zHDC2yP9zs",
+         "plus_code" : {
+            "compound_code" : "6862+X5 San Tommaso, VR, Italy",
+            "global_code" : "8FQH6862+X5"
+         },
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Via Argine",
+               "short_name" : "Via Argine",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Legnago",
+               "short_name" : "Legnago",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Provincia di Verona",
+               "short_name" : "VR",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Veneto",
+               "short_name" : "Veneto",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "37045",
+               "short_name" : "37045",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Via Argine, 37045 Legnago VR, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.2128211,
+                  "lng" : 11.2997299
+               },
+               "southwest" : {
+                  "lat" : 45.20697620000001,
+                  "lng" : 11.2989553
+               }
+            },
+            "location" : {
+               "lat" : 45.20985599999999,
+               "lng" : 11.299121
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.2128211,
+                  "lng" : 11.3006915802915
+               },
+               "southwest" : {
+                  "lat" : 45.20697620000001,
+                  "lng" : 11.2979936197085
+               }
+            }
+         },
+         "place_id" : "ChIJs1rez5QSf0cRMjJG7YWjQS4",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "13",
+               "short_name" : "13",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Via San Tomaso",
+               "short_name" : "Via S. Tomaso",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "San Tomaso",
+               "short_name" : "San Tomaso",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Legnago",
+               "short_name" : "Legnago",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Provincia di Verona",
+               "short_name" : "VR",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Veneto",
+               "short_name" : "Veneto",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "37045",
+               "short_name" : "37045",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Via S. Tomaso, 13, 37045 San Tomaso VR, Italy",
+         "geometry" : {
+            "location" : {
+               "lat" : 45.21241250000001,
+               "lng" : 11.3011665
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.21376148029151,
+                  "lng" : 11.3025154802915
+               },
+               "southwest" : {
+                  "lat" : 45.21106351970851,
+                  "lng" : 11.2998175197085
+               }
+            }
+         },
+         "place_id" : "Ei1WaWEgUy4gVG9tYXNvLCAxMywgMzcwNDUgU2FuIFRvbWFzbyBWUiwgSXRhbHkiGhIYChQKEgkpcL1w6xJ_RxFrzWDY67N1LRAN",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "37045",
+               "short_name" : "37045",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "Legnago",
+               "short_name" : "Legnago",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Province of Verona",
+               "short_name" : "VR",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Veneto",
+               "short_name" : "Veneto",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "37045 Legnago, VR, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.230143,
+                  "lng" : 11.3665931
+               },
+               "southwest" : {
+                  "lat" : 45.079465,
+                  "lng" : 11.244224
+               }
+            },
+            "location" : {
+               "lat" : 45.1617068,
+               "lng" : 11.3124372
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.230143,
+                  "lng" : 11.3665931
+               },
+               "southwest" : {
+                  "lat" : 45.079465,
+                  "lng" : 11.244224
+               }
+            }
+         },
+         "place_id" : "ChIJX8Ls6qwNf0cR8HKgaooJBxw",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Legnago",
+               "short_name" : "Legnago",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Province of Verona",
+               "short_name" : "VR",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Veneto",
+               "short_name" : "Veneto",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "37045",
+               "short_name" : "37045",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "37045 Legnago, VR, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.2301347,
+                  "lng" : 11.3666186
+               },
+               "southwest" : {
+                  "lat" : 45.0794555,
+                  "lng" : 11.2442518
+               }
+            },
+            "location" : {
+               "lat" : 45.1617068,
+               "lng" : 11.3124372
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.2301347,
+                  "lng" : 11.3666186
+               },
+               "southwest" : {
+                  "lat" : 45.0794555,
+                  "lng" : 11.2442518
+               }
+            }
+         },
+         "place_id" : "ChIJX8Ls6qwNf0cR4EeRFYcJBwQ",
+         "types" : [ "administrative_area_level_3", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Province of Verona",
+               "short_name" : "VR",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Veneto",
+               "short_name" : "Veneto",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Province of Verona, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.8327663,
+                  "lng" : 11.4911338
+               },
+               "southwest" : {
+                  "lat" : 45.0527901,
+                  "lng" : 10.622957
+               }
+            },
+            "location" : {
+               "lat" : 45.4418498,
+               "lng" : 11.0735316
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.8327663,
+                  "lng" : 11.4911338
+               },
+               "southwest" : {
+                  "lat" : 45.0527901,
+                  "lng" : 10.622957
+               }
+            }
+         },
+         "place_id" : "ChIJW1z-R7Nef0cR0H6QFYcJBwM",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Veneto",
+               "short_name" : "Veneto",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Veneto, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.6804752,
+                  "lng" : 13.1009766
+               },
+               "southwest" : {
+                  "lat" : 44.791218,
+                  "lng" : 10.6229634
+               }
+            },
+            "location" : {
+               "lat" : 45.4414662,
+               "lng" : 12.3152595
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.6804752,
+                  "lng" : 13.1009766
+               },
+               "southwest" : {
+                  "lat" : 44.791218,
+                  "lng" : 10.6229634
+               }
+            }
+         },
+         "place_id" : "ChIJd7cEzPHXeEcRcHyQFYcJBwE",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 47.092,
+                  "lng" : 18.7975999
+               },
+               "southwest" : {
+                  "lat" : 35.4897,
+                  "lng" : 6.6267201
+               }
+            },
+            "location" : {
+               "lat" : 41.87194,
+               "lng" : 12.56738
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 47.092,
+                  "lng" : 18.7975999
+               },
+               "southwest" : {
+                  "lat" : 35.4897,
+                  "lng" : 6.6267201
+               }
+            }
+         },
+         "place_id" : "ChIJA9KNRIL-1BIRb15jJFz1LOI",
+         "types" : [ "country", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "677X+29",
+               "short_name" : "677X+29",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Legnago",
+               "short_name" : "Legnago",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "Province of Verona",
+               "short_name" : "VR",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Veneto",
+               "short_name" : "Veneto",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Italy",
+               "short_name" : "IT",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "37045",
+               "short_name" : "37045",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "677X+29 Legnago, VR, Italy",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 45.212625,
+                  "lng" : 11.2985
+               },
+               "southwest" : {
+                  "lat" : 45.2125,
+                  "lng" : 11.298375
+               }
+            },
+            "location" : {
+               "lat" : 45.2125358,
+               "lng" : 11.2984829
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.2139114802915,
+                  "lng" : 11.2997864802915
+               },
+               "southwest" : {
+                  "lat" : 45.2112135197085,
+                  "lng" : 11.2970885197085
+               }
+            }
+         },
+         "place_id" : "GhIJVh2DXzSbRkARmtQrwNKYJkA",
+         "plus_code" : {
+            "compound_code" : "677X+29 Legnago, VR, Italy",
+            "global_code" : "8FQH677X+29"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

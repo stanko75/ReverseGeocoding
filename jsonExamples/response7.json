@@ -1,0 +1,106 @@
+{
+   "plus_code" : {
+      "compound_code" : "2246+HX Kanika, India",
+      "global_code" : "7J7P2246+HX"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 35.513327,
+                  "lng" : 97.39535869999999
+               },
+               "southwest" : {
+                  "lat" : 6.4626999,
+                  "lng" : 68.1097
+               }
+            },
+            "location" : {
+               "lat" : 20.593684,
+               "lng" : 78.96288
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.513327,
+                  "lng" : 97.39535869999999
+               },
+               "southwest" : {
+                  "lat" : 6.4626999,
+                  "lng" : 68.1097
+               }
+            }
+         },
+         "place_id" : "ChIJkbeSa_BfYzARphNChaFPjNc",
+         "types" : [ "country", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "2246+HX",
+               "short_name" : "2246+HX",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Kanika",
+               "short_name" : "Kanika",
+               "types" : [ "political", "sublocality", "sublocality_level_1" ]
+            },
+            {
+               "long_name" : "South Goa",
+               "short_name" : "South Goa",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "India",
+               "short_name" : "IN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "2246+HX Kanika, India",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 15.0065,
+                  "lng" : 74.0125
+               },
+               "southwest" : {
+                  "lat" : 15.006375,
+                  "lng" : 74.01237499999999
+               }
+            },
+            "location" : {
+               "lat" : 15.0063889,
+               "lng" : 74.0125
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 15.0077864802915,
+                  "lng" : 74.0137864802915
+               },
+               "southwest" : {
+                  "lat" : 15.0050885197085,
+                  "lng" : 74.01108851970849
+               }
+            }
+         },
+         "place_id" : "GhIJZR3pZ0UDLkARzczMzMyAUkA",
+         "plus_code" : {
+            "compound_code" : "2246+HX Kanika, India",
+            "global_code" : "7J7P2246+HX"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

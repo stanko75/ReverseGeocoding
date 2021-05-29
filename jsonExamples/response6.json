@@ -1,0 +1,517 @@
+{
+	"plus_code": {
+		"global_code": "8FQMGHJ7+26"
+	},
+	"results": [
+		{
+			"address_components": [
+				{
+					"long_name": "20",
+					"short_name": "20",
+					"types": [
+						"street_number"
+					]
+				},
+				{
+					"long_name": "Prešernovo nabrežje",
+					"short_name": "Prešernovo nabrežje",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Piran - Pirano",
+					"short_name": "Piran - Pirano",
+					"types": [
+						"postal_town"
+					]
+				},
+				{
+					"long_name": "Piran",
+					"short_name": "Piran",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Slovenia",
+					"short_name": "SI",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "6330",
+					"short_name": "6330",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Prešernovo nabrežje 20, 6330 Piran - Pirano, Slovenia",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 45.53028150000001,
+						"lng": 13.5632797
+					},
+					"southwest": {
+						"lat": 45.5301621,
+						"lng": 13.5630936
+					}
+				},
+				"location": {
+					"lat": 45.5302467,
+					"lng": 13.5631736
+				},
+				"location_type": "ROOFTOP",
+				"viewport": {
+					"northeast": {
+						"lat": 45.53157078029151,
+						"lng": 13.5645356302915
+					},
+					"southwest": {
+						"lat": 45.52887281970851,
+						"lng": 13.5618376697085
+					}
+				}
+			},
+			"place_id": "ChIJOY3HRep6e0cRBlLc-YhIWco",
+			"types": [
+				"premise"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "20",
+					"short_name": "20",
+					"types": [
+						"street_number"
+					]
+				},
+				{
+					"long_name": "Prešernovo nabrežje",
+					"short_name": "Prešernovo nabrežje",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Piran - Pirano",
+					"short_name": "Piran - Pirano",
+					"types": [
+						"postal_town"
+					]
+				},
+				{
+					"long_name": "Piran",
+					"short_name": "Piran",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Slovenia",
+					"short_name": "SI",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "6330",
+					"short_name": "6330",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Prešernovo nabrežje 20, 6330 Piran - Pirano, Slovenia",
+			"geometry": {
+				"location": {
+					"lat": 45.5302373,
+					"lng": 13.5631543
+				},
+				"location_type": "ROOFTOP",
+				"viewport": {
+					"northeast": {
+						"lat": 45.53158628029149,
+						"lng": 13.5645032802915
+					},
+					"southwest": {
+						"lat": 45.52888831970849,
+						"lng": 13.5618053197085
+					}
+				}
+			},
+			"place_id": "ChIJf6W_Rep6e0cR6LFHBQn3zsM",
+			"plus_code": {
+				"compound_code": "GHJ7+37 Piran - Pirano, Slovenia",
+				"global_code": "8FQMGHJ7+37"
+			},
+			"types": [
+				"establishment",
+				"point_of_interest",
+				"tourist_attraction"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "20",
+					"short_name": "20",
+					"types": [
+						"street_number"
+					]
+				},
+				{
+					"long_name": "Prešernovo nabrežje",
+					"short_name": "Prešernovo nabrežje",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Piran - Pirano",
+					"short_name": "Piran - Pirano",
+					"types": [
+						"postal_town"
+					]
+				},
+				{
+					"long_name": "Piran",
+					"short_name": "Piran",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Slovenia",
+					"short_name": "SI",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "6330",
+					"short_name": "6330",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Prešernovo nabrežje 20, 6330 Piran - Pirano, Slovenia",
+			"geometry": {
+				"location": {
+					"lat": 45.5302359,
+					"lng": 13.5632285
+				},
+				"location_type": "ROOFTOP",
+				"viewport": {
+					"northeast": {
+						"lat": 45.5315848802915,
+						"lng": 13.5645774802915
+					},
+					"southwest": {
+						"lat": 45.5288869197085,
+						"lng": 13.5618795197085
+					}
+				}
+			},
+			"place_id": "ChIJZXrIRep6e0cR5jcustvielc",
+			"plus_code": {
+				"compound_code": "GHJ7+37 Piran - Pirano, Slovenia",
+				"global_code": "8FQMGHJ7+37"
+			},
+			"types": [
+				"street_address"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "18",
+					"short_name": "18",
+					"types": [
+						"street_number"
+					]
+				},
+				{
+					"long_name": "Prešernovo nabrežje",
+					"short_name": "Prešernovo nabrežje",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Piran - Pirano",
+					"short_name": "Piran - Pirano",
+					"types": [
+						"postal_town"
+					]
+				},
+				{
+					"long_name": "Piran",
+					"short_name": "Piran",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Slovenia",
+					"short_name": "SI",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "6330",
+					"short_name": "6330",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Prešernovo nabrežje 18, 6330 Piran - Pirano, Slovenia",
+			"geometry": {
+				"location": {
+					"lat": 45.5303349,
+					"lng": 13.5631722
+				},
+				"location_type": "RANGE_INTERPOLATED",
+				"viewport": {
+					"northeast": {
+						"lat": 45.5316838802915,
+						"lng": 13.5645211802915
+					},
+					"southwest": {
+						"lat": 45.5289859197085,
+						"lng": 13.5618232197085
+					}
+				}
+			},
+			"place_id": "EjdQcmXFoWVybm92byBuYWJyZcW-amUgMTgsIDYzMzAgUGlyYW4gLSBQaXJhbm8sIFNsb3ZlbmlhIhoSGAoUChIJjakHRep6e0cRfWlB0IZP0OcQEg",
+			"types": [
+				"street_address"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Prešernovo nabrežje",
+					"short_name": "Prešernovo nabrežje",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Piran - Pirano",
+					"short_name": "Piran - Pirano",
+					"types": [
+						"postal_town"
+					]
+				},
+				{
+					"long_name": "Piran",
+					"short_name": "Piran",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Slovenia",
+					"short_name": "SI",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "6330",
+					"short_name": "6330",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Prešernovo nabrežje, 6330 Piran - Pirano, Slovenia",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 45.53037339999999,
+						"lng": 13.5637131
+					},
+					"southwest": {
+						"lat": 45.52988029999999,
+						"lng": 13.5629473
+					}
+				},
+				"location": {
+					"lat": 45.53010039999999,
+					"lng": 13.5632109
+				},
+				"location_type": "GEOMETRIC_CENTER",
+				"viewport": {
+					"northeast": {
+						"lat": 45.53147583029149,
+						"lng": 13.5646791802915
+					},
+					"southwest": {
+						"lat": 45.5287778697085,
+						"lng": 13.5619812197085
+					}
+				}
+			},
+			"place_id": "ChIJL5ysRup6e0cR8Gn6Oe2QpZ8",
+			"types": [
+				"route"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Slovenia",
+					"short_name": "SI",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "Slovenia",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 46.876659,
+						"lng": 16.6107038
+					},
+					"southwest": {
+						"lat": 45.4218356,
+						"lng": 13.3753355
+					}
+				},
+				"location": {
+					"lat": 46.151241,
+					"lng": 14.995463
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 46.876659,
+						"lng": 16.6107038
+					},
+					"southwest": {
+						"lat": 45.4218356,
+						"lng": 13.3753355
+					}
+				}
+			},
+			"place_id": "ChIJYYOWXuckZUcRZdTiJR5FQOc",
+			"types": [
+				"country",
+				"political"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Italy",
+					"short_name": "IT",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "Italy",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 47.092,
+						"lng": 18.7975999
+					},
+					"southwest": {
+						"lat": 35.4897,
+						"lng": 6.6267201
+					}
+				},
+				"location": {
+					"lat": 41.87194,
+					"lng": 12.56738
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 47.092,
+						"lng": 18.7975999
+					},
+					"southwest": {
+						"lat": 35.4897,
+						"lng": 6.6267201
+					}
+				}
+			},
+			"place_id": "ChIJA9KNRIL-1BIRb15jJFz1LOI",
+			"types": [
+				"country",
+				"political"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "8FQMGHJ7+26",
+					"short_name": "8FQMGHJ7+26",
+					"types": [
+						"plus_code"
+					]
+				}
+			],
+			"formatted_address": "8FQMGHJ7+26",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 45.530125,
+						"lng": 13.563125
+					},
+					"southwest": {
+						"lat": 45.53000000000001,
+						"lng": 13.563
+					}
+				},
+				"location": {
+					"lat": 45.53000000000001,
+					"lng": 13.5630556
+				},
+				"location_type": "ROOFTOP",
+				"viewport": {
+					"northeast": {
+						"lat": 45.5314114802915,
+						"lng": 13.5644114802915
+					},
+					"southwest": {
+						"lat": 45.528713519708499,
+						"lng": 13.5617135197085
+					}
+				}
+			},
+			"place_id": "GhIJpXA9CtfDRkARyajX0kggK0A",
+			"plus_code": {
+				"global_code": "8FQMGHJ7+26"
+			},
+			"types": [
+				"plus_code"
+			]
+		}
+	],
+	"status": "OK"
+}

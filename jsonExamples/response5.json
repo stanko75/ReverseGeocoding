@@ -1,0 +1,428 @@
+{
+	"plus_code": {
+		"compound_code": "GHH9+64 Piran - Pirano, Slovenia",
+		"global_code": "8FQMGHH9+64"
+	},
+	"results": [
+		{
+			"address_components": [
+				{
+					"long_name": "2",
+					"short_name": "2",
+					"types": [
+						"street_number"
+					]
+				},
+				{
+					"long_name": "Kidričevo nabrežje",
+					"short_name": "Kidričevo nabrežje",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Piran - Pirano",
+					"short_name": "Piran - Pirano",
+					"types": [
+						"postal_town"
+					]
+				},
+				{
+					"long_name": "Piran",
+					"short_name": "Piran",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Slovenia",
+					"short_name": "SI",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "6330",
+					"short_name": "6330",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Kidričevo nabrežje 2, 6330 Piran - Pirano, Slovenia",
+			"geometry": {
+				"location": {
+					"lat": 45.5281915,
+					"lng": 13.5675583
+				},
+				"location_type": "ROOFTOP",
+				"viewport": {
+					"northeast": {
+						"lat": 45.52954048029149,
+						"lng": 13.5689072802915
+					},
+					"southwest": {
+						"lat": 45.5268425197085,
+						"lng": 13.5662093197085
+					}
+				}
+			},
+			"place_id": "ChIJP6EWgMF6e0cRqwTZfT8SS8A",
+			"plus_code": {
+				"compound_code": "GHH9+72 Piran - Pirano, Slovenia",
+				"global_code": "8FQMGHH9+72"
+			},
+			"types": [
+				"street_address"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "2",
+					"short_name": "2",
+					"types": [
+						"street_number"
+					]
+				},
+				{
+					"long_name": "Kidričevo nabrežje",
+					"short_name": "Kidričevo nabrežje",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Piran - Pirano",
+					"short_name": "Piran - Pirano",
+					"types": [
+						"postal_town"
+					]
+				},
+				{
+					"long_name": "Piran",
+					"short_name": "Piran",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Slovenia",
+					"short_name": "SI",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "6330",
+					"short_name": "6330",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Kidričevo nabrežje 2, 6330 Piran - Pirano, Slovenia",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 45.528319,
+						"lng": 13.5677148
+					},
+					"southwest": {
+						"lat": 45.5280563,
+						"lng": 13.5672805
+					}
+				},
+				"location": {
+					"lat": 45.5281733,
+					"lng": 13.567459
+				},
+				"location_type": "ROOFTOP",
+				"viewport": {
+					"northeast": {
+						"lat": 45.5295366302915,
+						"lng": 13.5688466302915
+					},
+					"southwest": {
+						"lat": 45.5268386697085,
+						"lng": 13.5661486697085
+					}
+				}
+			},
+			"place_id": "ChIJj5trgMF6e0cRZCQBxJI8ZKM",
+			"types": [
+				"premise"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "2",
+					"short_name": "2",
+					"types": [
+						"street_number"
+					]
+				},
+				{
+					"long_name": "Kidričevo nabrežje",
+					"short_name": "Kidričevo nabrežje",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Piran - Pirano",
+					"short_name": "Piran - Pirano",
+					"types": [
+						"postal_town"
+					]
+				},
+				{
+					"long_name": "Piran",
+					"short_name": "Piran",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Slovenia",
+					"short_name": "SI",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "6330",
+					"short_name": "6330",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Kidričevo nabrežje 2, 6330 Piran - Pirano, Slovenia",
+			"geometry": {
+				"location": {
+					"lat": 45.5281105,
+					"lng": 13.5676635
+				},
+				"location_type": "RANGE_INTERPOLATED",
+				"viewport": {
+					"northeast": {
+						"lat": 45.52945948029149,
+						"lng": 13.5690124802915
+					},
+					"southwest": {
+						"lat": 45.52676151970849,
+						"lng": 13.5663145197085
+					}
+				}
+			},
+			"place_id": "EjVLaWRyacSNZXZvIG5hYnJlxb5qZSAyLCA2MzMwIFBpcmFuIC0gUGlyYW5vLCBTbG92ZW5pYSIaEhgKFAoSCa39WdXDentHET1N-stsIVT6EAI",
+			"types": [
+				"street_address"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Kidričevo nabrežje",
+					"short_name": "Kidričevo nabrežje",
+					"types": [
+						"route"
+					]
+				},
+				{
+					"long_name": "Piran - Pirano",
+					"short_name": "Piran - Pirano",
+					"types": [
+						"postal_town"
+					]
+				},
+				{
+					"long_name": "Piran",
+					"short_name": "Piran",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Slovenia",
+					"short_name": "SI",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "6330",
+					"short_name": "6330",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "Kidričevo nabrežje, 6330 Piran - Pirano, Slovenia",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 45.5281903,
+						"lng": 13.5677887
+					},
+					"southwest": {
+						"lat": 45.5280115,
+						"lng": 13.5675082
+					}
+				},
+				"location": {
+					"lat": 45.5281009,
+					"lng": 13.5676484
+				},
+				"location_type": "GEOMETRIC_CENTER",
+				"viewport": {
+					"northeast": {
+						"lat": 45.52944988029149,
+						"lng": 13.5689974302915
+					},
+					"southwest": {
+						"lat": 45.5267519197085,
+						"lng": 13.5662994697085
+					}
+				}
+			},
+			"place_id": "ChIJrf1Z1cN6e0cRPE36y2whVPo",
+			"types": [
+				"route"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "Slovenia",
+					"short_name": "SI",
+					"types": [
+						"country",
+						"political"
+					]
+				}
+			],
+			"formatted_address": "Slovenia",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 46.876659,
+						"lng": 16.6107038
+					},
+					"southwest": {
+						"lat": 45.4218356,
+						"lng": 13.3753355
+					}
+				},
+				"location": {
+					"lat": 46.151241,
+					"lng": 14.995463
+				},
+				"location_type": "APPROXIMATE",
+				"viewport": {
+					"northeast": {
+						"lat": 46.876659,
+						"lng": 16.6107038
+					},
+					"southwest": {
+						"lat": 45.4218356,
+						"lng": 13.3753355
+					}
+				}
+			},
+			"place_id": "ChIJYYOWXuckZUcRZdTiJR5FQOc",
+			"types": [
+				"country",
+				"political"
+			]
+		},
+		{
+			"address_components": [
+				{
+					"long_name": "GHH9+64",
+					"short_name": "GHH9+64",
+					"types": [
+						"plus_code"
+					]
+				},
+				{
+					"long_name": "Piran - Pirano",
+					"short_name": "Piran - Pirano",
+					"types": [
+						"postal_town"
+					]
+				},
+				{
+					"long_name": "Piran",
+					"short_name": "Piran",
+					"types": [
+						"administrative_area_level_1",
+						"political"
+					]
+				},
+				{
+					"long_name": "Slovenia",
+					"short_name": "SI",
+					"types": [
+						"country",
+						"political"
+					]
+				},
+				{
+					"long_name": "6330",
+					"short_name": "6330",
+					"types": [
+						"postal_code"
+					]
+				}
+			],
+			"formatted_address": "GHH9+64 Piran - Pirano, Slovenia",
+			"geometry": {
+				"bounds": {
+					"northeast": {
+						"lat": 45.528125,
+						"lng": 13.567875
+					},
+					"southwest": {
+						"lat": 45.528,
+						"lng": 13.56775
+					}
+				},
+				"location": {
+					"lat": 45.5280556,
+					"lng": 13.5677778
+				},
+				"location_type": "ROOFTOP",
+				"viewport": {
+					"northeast": {
+						"lat": 45.52941148029149,
+						"lng": 13.5691614802915
+					},
+					"southwest": {
+						"lat": 45.52671351970849,
+						"lng": 13.5664635197085
+					}
+				}
+			},
+			"place_id": "GhIJHjxuU5fDRkARJ8qUxbMiK0A",
+			"plus_code": {
+				"compound_code": "GHH9+64 Piran - Pirano, Slovenia",
+				"global_code": "8FQMGHH9+64"
+			},
+			"types": [
+				"plus_code"
+			]
+		}
+	],
+	"status": "OK"
+}

@@ -1,0 +1,758 @@
+{
+   "plus_code" : {
+      "compound_code" : "3MX7+6M Subotica, Serbia",
+      "global_code" : "8FRX3MX7+6M"
+   },
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "5",
+               "short_name" : "5",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bledska",
+               "short_name" : "Bledska",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Subotica",
+               "short_name" : "SU",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Severnobački okrug",
+               "short_name" : "Severnobački okrug",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "24000",
+               "short_name" : "24000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Bledska 5, Subotica 24000, Serbia",
+         "geometry" : {
+            "location" : {
+               "lat" : 46.0980159,
+               "lng" : 19.6637859
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.0993648802915,
+                  "lng" : 19.6651348802915
+               },
+               "southwest" : {
+                  "lat" : 46.0966669197085,
+                  "lng" : 19.6624369197085
+               }
+            }
+         },
+         "place_id" : "ChIJs-8jrc9mQ0cR3wBfUh9Nivk",
+         "plus_code" : {
+            "compound_code" : "3MX7+6G Subotica, Serbia",
+            "global_code" : "8FRX3MX7+6G"
+         },
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "20",
+               "short_name" : "20",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Štrosmajerova",
+               "short_name" : "Štrosmajerova",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Subotica",
+               "short_name" : "SU",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Severnobački okrug",
+               "short_name" : "Severnobački okrug",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "24000",
+               "short_name" : "24000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Štrosmajerova 20, Subotica 24000, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.0981797,
+                  "lng" : 19.664882
+               },
+               "southwest" : {
+                  "lat" : 46.0979454,
+                  "lng" : 19.6644132
+               }
+            },
+            "location" : {
+               "lat" : 46.0980593,
+               "lng" : 19.6647523
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.0994115302915,
+                  "lng" : 19.6659965802915
+               },
+               "southwest" : {
+                  "lat" : 46.09671356970851,
+                  "lng" : 19.6632986197085
+               }
+            }
+         },
+         "place_id" : "ChIJv-sxV85mQ0cRXTr-9jY2TcU",
+         "types" : [ "premise" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "18",
+               "short_name" : "18",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Štrosmajerova",
+               "short_name" : "Štrosmajerova",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Subotica",
+               "short_name" : "SU",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Severnobački okrug",
+               "short_name" : "Severnobački okrug",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "24000",
+               "short_name" : "24000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Štrosmajerova 18, Subotica 24000, Serbia",
+         "geometry" : {
+            "location" : {
+               "lat" : 46.0983649,
+               "lng" : 19.6644603
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.0997138802915,
+                  "lng" : 19.6658092802915
+               },
+               "southwest" : {
+                  "lat" : 46.0970159197085,
+                  "lng" : 19.6631113197085
+               }
+            }
+         },
+         "place_id" : "ChIJQ5rfAs9mQ0cRn-YKSesoGZ0",
+         "plus_code" : {
+            "compound_code" : "3MX7+8Q Subotica, Serbia",
+            "global_code" : "8FRX3MX7+8Q"
+         },
+         "types" : [ "establishment", "point_of_interest" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "8",
+               "short_name" : "8",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bledska",
+               "short_name" : "Bledska",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Subotica",
+               "short_name" : "SU",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Severnobački okrug",
+               "short_name" : "Severnobački okrug",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "24000",
+               "short_name" : "24000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Bledska 8, Subotica 24000, Serbia",
+         "geometry" : {
+            "location" : {
+               "lat" : 46.0978144,
+               "lng" : 19.6642487
+            },
+            "location_type" : "RANGE_INTERPOLATED",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.0991633802915,
+                  "lng" : 19.6655976802915
+               },
+               "southwest" : {
+                  "lat" : 46.0964654197085,
+                  "lng" : 19.6628997197085
+               }
+            }
+         },
+         "place_id" : "EiFCbGVkc2thIDgsIFN1Ym90aWNhIDI0MDAwLCBTZXJiaWEiGhIYChQKEgn3ysdNzmZDRxE7zDvoerlGOBAI",
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "5",
+               "short_name" : "5",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Bledska",
+               "short_name" : "Bledska",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Subotica",
+               "short_name" : "SU",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Severnobački okrug",
+               "short_name" : "Severnobački okrug",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "24000",
+               "short_name" : "24000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Bledska 5, Subotica 24000, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.0980326,
+                  "lng" : 19.6645886
+               },
+               "southwest" : {
+                  "lat" : 46.0974263,
+                  "lng" : 19.6634549
+               }
+            },
+            "location" : {
+               "lat" : 46.0979314,
+               "lng" : 19.6641462
+            },
+            "location_type" : "GEOMETRIC_CENTER",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.0990784302915,
+                  "lng" : 19.6653707302915
+               },
+               "southwest" : {
+                  "lat" : 46.0963804697085,
+                  "lng" : 19.6626727697085
+               }
+            }
+         },
+         "place_id" : "ChIJ98rHTc5mQ0cROsw76Hq5Rjg",
+         "types" : [ "route" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Centar II",
+               "short_name" : "Centar II",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Subotica",
+               "short_name" : "SU",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Severnobački okrug",
+               "short_name" : "Severnobački okrug",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "24000",
+               "short_name" : "24000",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Centar II, Subotica 24000, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.1044527,
+                  "lng" : 19.6655274
+               },
+               "southwest" : {
+                  "lat" : 46.0948111,
+                  "lng" : 19.649756
+               }
+            },
+            "location" : {
+               "lat" : 46.1003905,
+               "lng" : 19.6601547
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.1044527,
+                  "lng" : 19.6655274
+               },
+               "southwest" : {
+                  "lat" : 46.0948111,
+                  "lng" : 19.649756
+               }
+            }
+         },
+         "place_id" : "ChIJyw_EOMRmQ0cRXscs3i4HaeQ",
+         "types" : [ "neighborhood", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "24000",
+               "short_name" : "24000",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "Subotica",
+               "short_name" : "SU",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "North Bačka District",
+               "short_name" : "North Bačka District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Subotica 24000, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.1346961,
+                  "lng" : 19.723253
+               },
+               "southwest" : {
+                  "lat" : 46.0635816,
+                  "lng" : 19.6207054
+               }
+            },
+            "location" : {
+               "lat" : 46.0999534,
+               "lng" : 19.6686004
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.1346961,
+                  "lng" : 19.723253
+               },
+               "southwest" : {
+                  "lat" : 46.0635816,
+                  "lng" : 19.6207054
+               }
+            }
+         },
+         "place_id" : "ChIJH-moq85mQ0cR_DNX6dE8UZI",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Subotica",
+               "short_name" : "SU",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "North Bačka District",
+               "short_name" : "North Bačka District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Subotica, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.1897987,
+                  "lng" : 19.7770429
+               },
+               "southwest" : {
+                  "lat" : 45.9975281,
+                  "lng" : 19.5711993
+               }
+            },
+            "location" : {
+               "lat" : 46.09695809999999,
+               "lng" : 19.65763
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.1897987,
+                  "lng" : 19.7770429
+               },
+               "southwest" : {
+                  "lat" : 45.9975281,
+                  "lng" : 19.5711993
+               }
+            }
+         },
+         "place_id" : "ChIJ-TivaMFmQ0cRjoM9KpK9Gd8",
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Subotica",
+               "short_name" : "Subotica",
+               "types" : [ "administrative_area_level_3", "political" ]
+            },
+            {
+               "long_name" : "North Bačka District",
+               "short_name" : "North Bačka District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Subotica, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.1879121,
+                  "lng" : 19.8957897
+               },
+               "southwest" : {
+                  "lat" : 45.8490403,
+                  "lng" : 19.2822076
+               }
+            },
+            "location" : {
+               "lat" : 46.1001876,
+               "lng" : 19.6582843
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.1879121,
+                  "lng" : 19.8957897
+               },
+               "southwest" : {
+                  "lat" : 45.8490403,
+                  "lng" : 19.2822076
+               }
+            }
+         },
+         "place_id" : "ChIJQa_-MspdQ0cRZzi60ku35MQ",
+         "types" : [ "administrative_area_level_3", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "North Bačka District",
+               "short_name" : "North Bačka District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "North Bačka District, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.1912459,
+                  "lng" : 19.875136
+               },
+               "southwest" : {
+                  "lat" : 45.6242571,
+                  "lng" : 19.3011208
+               }
+            },
+            "location" : {
+               "lat" : 45.9803394,
+               "lng" : 19.5907001
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.1912459,
+                  "lng" : 19.875136
+               },
+               "southwest" : {
+                  "lat" : 45.6242571,
+                  "lng" : 19.3011208
+               }
+            }
+         },
+         "place_id" : "ChIJZyeZnipYQ0cR_VUsafSuVAk",
+         "types" : [ "administrative_area_level_2", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Vojvodina, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.1912459,
+                  "lng" : 21.56465
+               },
+               "southwest" : {
+                  "lat" : 44.6294639,
+                  "lng" : 18.8493741
+               }
+            },
+            "location" : {
+               "lat" : 45.2608651,
+               "lng" : 19.8319338
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.1912459,
+                  "lng" : 21.56465
+               },
+               "southwest" : {
+                  "lat" : 44.6294639,
+                  "lng" : 18.8493741
+               }
+            }
+         },
+         "place_id" : "ChIJwacVX8xmQ0cRj2JoJcRMC3c",
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.190032,
+                  "lng" : 23.0063095
+               },
+               "southwest" : {
+                  "lat" : 42.2315029,
+                  "lng" : 18.8385221
+               }
+            },
+            "location" : {
+               "lat" : 44.016521,
+               "lng" : 21.005859
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.190032,
+                  "lng" : 23.0063095
+               },
+               "southwest" : {
+                  "lat" : 42.2315029,
+                  "lng" : 18.8385221
+               }
+            }
+         },
+         "place_id" : "ChIJlYCJ8t8dV0cRXYYjN-pQXgU",
+         "types" : [ "country", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "3MX7+6M",
+               "short_name" : "3MX7+6M",
+               "types" : [ "plus_code" ]
+            },
+            {
+               "long_name" : "Subotica",
+               "short_name" : "SU",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "North Bačka District",
+               "short_name" : "North Bačka District",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "Vojvodina",
+               "short_name" : "Vojvodina",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Serbia",
+               "short_name" : "RS",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "3MX7+6M Subotica, Serbia",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 46.098125,
+                  "lng" : 19.66425
+               },
+               "southwest" : {
+                  "lat" : 46.098,
+                  "lng" : 19.664125
+               }
+            },
+            "location" : {
+               "lat" : 46.0980556,
+               "lng" : 19.6641667
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 46.0994114802915,
+                  "lng" : 19.6655364802915
+               },
+               "southwest" : {
+                  "lat" : 46.0967135197085,
+                  "lng" : 19.6628385197085
+               }
+            }
+         },
+         "place_id" : "GhIJRpj9FY0MR0ARnZcv1AaqM0A",
+         "plus_code" : {
+            "compound_code" : "3MX7+6M Subotica, Serbia",
+            "global_code" : "8FRX3MX7+6M"
+         },
+         "types" : [ "plus_code" ]
+      }
+   ],
+   "status" : "OK"
+}

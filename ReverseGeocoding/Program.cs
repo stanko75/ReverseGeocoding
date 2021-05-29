@@ -3,8 +3,6 @@ using MySql.Data.MySqlClient;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
@@ -188,6 +186,76 @@ namespace ReverseGeocoding
         }
       }
 
+      if (string.IsNullOrWhiteSpace(city))
+      {
+        foreach (JToken result in reverseGeocodingJObject["results"])
+        {
+          if (result["types"][0].ToString().ToLower() == "plus_code")
+          {
+            foreach (JToken addressComponent in result["address_components"])
+            {
+              if (addressComponent["types"].Count() > 1 &&
+                  addressComponent["types"][0].ToString().ToLower() == "administrative_area_level_1" &&
+                  addressComponent["types"][1].ToString().ToLower() == "political")
+              {
+                city = addressComponent["long_name"].ToString();
+                city = city.Replace("'", "''");
+
+                AddCityToDb(city, mySqlConnection);
+              }
+            }
+
+          }
+        }
+      }
+
+      if (string.IsNullOrWhiteSpace(city))
+      {
+        foreach (JToken result in reverseGeocodingJObject["results"])
+        {
+          if (result["types"][0].ToString().ToLower() == "route")
+          {
+            foreach (JToken addressComponent in result["address_components"])
+            {
+              if (addressComponent["types"].Count() > 1 &&
+                  addressComponent["types"][0].ToString().ToLower() == "administrative_area_level_1" &&
+                  addressComponent["types"][1].ToString().ToLower() == "political")
+              {
+                city = addressComponent["long_name"].ToString();
+                city = city.Replace("'", "''");
+
+                AddCityToDb(city, mySqlConnection);
+              }
+            }
+
+          }
+        }
+      }
+
+      if (string.IsNullOrWhiteSpace(city))
+      {
+        foreach (JToken result in reverseGeocodingJObject["results"])
+        {
+          if (result["types"][0].ToString().ToLower() == "plus_code")
+          {
+            foreach (JToken addressComponent in result["address_components"])
+            {
+              if (addressComponent["types"].Count() > 2 &&
+                  addressComponent["types"][0].ToString().ToLower() == "political"
+                  && addressComponent["types"][1].ToString().ToLower() == "sublocality"
+                  && addressComponent["types"][2].ToString().ToLower() == "sublocality_level_1")
+              {
+                city = addressComponent["long_name"].ToString();
+                city = city.Replace("'", "''");
+
+                AddCityToDb(city, mySqlConnection);
+              }
+            }
+
+          }
+        }
+      }
+
       if (string.IsNullOrWhiteSpace(country))
       {
         foreach (JToken result in reverseGeocodingJObject["results"])
@@ -210,7 +278,7 @@ namespace ReverseGeocoding
         }
       }
 
-      if (string.IsNullOrWhiteSpace(country) || string.IsNullOrWhiteSpace(city))
+      if ((string.IsNullOrWhiteSpace(country) || string.IsNullOrWhiteSpace(city)) && reverseGeocodingJObject["results"].ToString() == "OK")
       {
         throw new Exception("Country or city are empty!");
       }
