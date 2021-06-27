@@ -36,13 +36,18 @@ namespace ReverseGeocoding
             {
               latLngFileName = serializer.Deserialize<LatLngFileName>(reader);
 
-              Console.WriteLine($"Geocoding: {latLngFileName.Latitude}, {latLngFileName.Longitude}, FileName: {latLngFileName.FileName}");
+              Console.WriteLine(
+                $"Geocoding: {latLngFileName.Latitude}, {latLngFileName.Longitude}, FileName: {latLngFileName.FileName}");
 
-              if (IsNotInDB(mySqlConnection, latLngFileName.Latitude, latLngFileName.Longitude, latLngFileName.FileName))
+              if (!IsInDb(mySqlConnection, latLngFileName.Latitude, latLngFileName.Longitude, latLngFileName.FileName)
+                  && latLngFileName.Latitude != "0"
+                  && latLngFileName.Longitude != "0"
+              )
               {
                 string url = UrlBuilder(latLngFileName.Latitude, latLngFileName.Longitude, googleApiKey);
                 string reverseGeocodingJson = GetJson(url);
-                ParseJsonAndWriteToDB(latLngFileName.Latitude, latLngFileName.Longitude, latLngFileName.FileName, reverseGeocodingJson, mySqlConnection);
+                ParseJsonAndWriteToDB(latLngFileName.Latitude, latLngFileName.Longitude, latLngFileName.FileName,
+                  reverseGeocodingJson, mySqlConnection);
               }
 
             }
@@ -52,7 +57,7 @@ namespace ReverseGeocoding
 
     }
 
-    private static bool IsNotInDB(MySqlConnection mySqlConnection, string latitude, string longitude, string fileName)
+    private static bool IsInDb(MySqlConnection mySqlConnection, string latitude, string longitude, string fileName)
     {
       using (mySqlConnection)
       {
@@ -61,8 +66,8 @@ namespace ReverseGeocoding
         MySqlCommand mySqlCommand = new MySqlCommand
         {
           CommandText =
-            $"select * from gpslocations where Latitude = '{latitude}' and Longitude = '{longitude}' and FileName = '{fileName}'",
-          Connection = mySqlConnection
+            $"select * from gpslocations where Latitude = '{latitude}' and Longitude = '{longitude}'" // and FileName like '%{Path.GetFileName(fileName)}%'"
+          , Connection = mySqlConnection
         };
         MySqlDataReader mySqlDataReader = mySqlCommand.ExecuteReader();
 
@@ -303,11 +308,12 @@ namespace ReverseGeocoding
         throw new Exception("Country or city are empty!");
       }
 
-      AddGpsLocationToDB(city, country, lat, lng, fileName, mySqlConnection);
+      AddGpsLocationToDB(city, country, lat, lng, fileName, reverseGeocodingJson, mySqlConnection);
 
     }
 
-    private static void AddGpsLocationToDB(string city, string country, string lat, string lng, string fileName, MySqlConnection mySqlConnection)
+    private static void AddGpsLocationToDB(string city, string country, string lat, string lng, string fileName,
+      string reverseGeocodingJson, MySqlConnection mySqlConnection)
     {
       fileName = fileName.Replace("\\\\", "/");
       fileName = fileName.Replace("\\", "/");
@@ -331,7 +337,7 @@ namespace ReverseGeocoding
             {
               while (mySqlDataReaderCountry.Read())
               {
-                countryID = (int)mySqlDataReaderCountry["ID"];
+                countryID = (int) mySqlDataReaderCountry["ID"];
               }
             }
             else
@@ -354,7 +360,7 @@ namespace ReverseGeocoding
             {
               while (mySqlDataReaderCity.Read())
               {
-                cityID = (int)mySqlDataReaderCity["ID"];
+                cityID = (int) mySqlDataReaderCity["ID"];
               }
             }
             else
@@ -364,33 +370,22 @@ namespace ReverseGeocoding
           }
         }
 
-        MySqlCommand mySqlCommandLatLngChckIfExists = new MySqlCommand();
-        mySqlCommandLatLngChckIfExists.CommandText = $"select * from reversegeocoding.gpslocations where Latitude = '{lat}' and Longitude = '{lng}' ";
-        mySqlCommandLatLngChckIfExists.Connection = mySqlConnection;
+        string insertSql =
+          $"INSERT INTO reversegeocoding.gpslocations (Latitude, Longitude, FileName, CityID, CountryID, JsonResult) VALUES ('{lat}', '{lng}', '{fileName}', '{cityID}', '{countryID}', @reverseGeocodingJson);";
 
-        bool latLngNotExists = true;
-        using (MySqlDataReader mySqlDataReaderLatLngChckIfExists = mySqlCommandLatLngChckIfExists.ExecuteReader())
+        try
         {
-          latLngNotExists = !mySqlDataReaderLatLngChckIfExists.HasRows;
+          MySqlCommand mySqlCommandLatLng = new MySqlCommand();
+          mySqlCommandLatLng.Connection = mySqlConnection;
+
+          mySqlCommandLatLng.CommandText = insertSql;
+          mySqlCommandLatLng.Parameters.AddWithValue("@reverseGeocodingJson", reverseGeocodingJson);
+
+          mySqlCommandLatLng.ExecuteNonQuery();
         }
-
-        if (latLngNotExists)
+        catch (Exception e)
         {
-          string insertSql = $"INSERT INTO reversegeocoding.gpslocations (Latitude, Longitude, FileName, CityID, CountryID) VALUES ('{lat}', '{lng}', '{fileName}', '{cityID}', '{countryID}');";
-
-          try
-          {
-            MySqlCommand mySqlCommandLatLng = new MySqlCommand();
-            mySqlCommandLatLng.Connection = mySqlConnection;
-
-            mySqlCommandLatLng.CommandText = insertSql;
-
-            mySqlCommandLatLng.ExecuteNonQuery();
-          }
-          catch (Exception e)
-          {
-            throw new Exception($"Error: {e.Message}, SQL: {insertSql}");
-          }
+          throw new Exception($"Error: {e.Message}, SQL: {insertSql}");
         }
       }
     }
